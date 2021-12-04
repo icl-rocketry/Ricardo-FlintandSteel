@@ -72,19 +72,6 @@ F 3 "" H 2550 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 61C92A8A
-P 2550 2000
-AR Path="/61C92A8A" Ref="C?"  Part="1" 
-AR Path="/61C80F8F/61C92A8A" Ref="1000uF"  Part="1" 
-F 0 "1000uF" V 2750 2000 50  0000 C CNN
-F 1 "C_Small" V 2650 2000 50  0000 C CNN
-F 2 "" H 2550 2000 50  0001 C CNN
-F 3 "~" H 2550 2000 50  0001 C CNN
-	1    2550 2000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R?
 U 1 1 61C92A90
 P 2850 2000
@@ -142,21 +129,31 @@ Wire Wire Line
 	1500 2300 1800 2300
 Connection ~ 1800 2300
 Connection ~ 1500 1900
-$Comp
-L Device:R_Small R?
-U 1 1 61C92AAE
-P 1500 2200
-AR Path="/61C92AAE" Ref="R?"  Part="1" 
-AR Path="/61C80F8F/61C92AAE" Ref="R?"  Part="1" 
-F 0 "R?" H 1441 2154 50  0000 R CNN
-F 1 "10K" H 1441 2245 50  0000 R CNN
-F 2 "" H 1500 2200 50  0001 C CNN
-F 3 "~" H 1500 2200 50  0001 C CNN
-	1    1500 2200
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1050 1900 1300 1900
+Text HLabel 1050 1900 0    50   Input ~ 0
+IGN_0
+Text HLabel 1050 3550 0    50   Input ~ 0
+IGN_1
+Text HLabel 1050 5200 0    50   Input ~ 0
+IGN_2
+Text HLabel 1050 6850 0    50   Input ~ 0
+IGN_3
+Text Notes 10200 550  0    50   ~ 0
+Reference schematic here
+$Comp
+L Device:C_Small C?
+U 1 1 61C92A8A
+P 2550 2000
+AR Path="/61C92A8A" Ref="C?"  Part="1" 
+AR Path="/61C80F8F/61C92A8A" Ref="C?"  Part="1" 
+F 0 "C?" V 2750 2000 50  0000 C CNN
+F 1 "1000uF" V 2650 2000 50  0000 C CNN
+F 2 "" H 2550 2000 50  0001 C CNN
+F 3 "~" H 2550 2000 50  0001 C CNN
+	1    2550 2000
+	1    0    0    -1  
+$EndComp
 $Bitmap
 Pos 10150 1500
 Scale 1.000000
@@ -2325,192 +2322,16 @@ ED FC DA F3 D7 3C 1E 8F E7 CF 84 97 52 CF 1B 64 6B 27 6A A3 40 16 3A DA A8 B2 85
 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text HLabel 1050 1900 0    50   Input ~ 0
-IGN_0
-Text HLabel 1050 3550 0    50   Input ~ 0
-IGN_1
-Text HLabel 1050 5200 0    50   Input ~ 0
-IGN_2
-Text HLabel 1050 6850 0    50   Input ~ 0
-IGN_3
-Text Notes 10200 550  0    50   ~ 0
-Reference schematic here
+Wire Wire Line
+	1050 5200 1300 5200
+Wire Wire Line
+	1050 6850 1300 6850
 $Comp
 L Device:R_Small R?
-U 1 1 61C92A7D
-P 2550 1550
-AR Path="/61C92A7D" Ref="R?"  Part="1" 
-AR Path="/61C80F8F/61C92A7D" Ref="R?"  Part="1" 
-F 0 "R?" H 2609 1596 50  0000 L CNN
-F 1 "1K" H 2609 1505 50  0000 L CNN
-F 2 "" H 2550 1550 50  0001 C CNN
-F 3 "~" H 2550 1550 50  0001 C CNN
-	1    2550 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 61CF0BC4
-P 1400 3550
-AR Path="/61CF0BC4" Ref="R?"  Part="1" 
-AR Path="/61C80F8F/61CF0BC4" Ref="R?"  Part="1" 
-F 0 "R?" V 1204 3550 50  0000 C CNN
-F 1 "10K" V 1295 3550 50  0000 C CNN
-F 2 "" H 1400 3550 50  0001 C CNN
-F 3 "~" H 1400 3550 50  0001 C CNN
-	1    1400 3550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1800 3250 1800 3350
-Wire Wire Line
-	1800 3750 1800 3950
-$Comp
-L Transistor_BJT:MMDT2222A Q?
-U 1 1 61CF0BCC
-P 1700 3550
-AR Path="/61CF0BCC" Ref="Q?"  Part="1" 
-AR Path="/61C80F8F/61CF0BCC" Ref="Q?"  Part="1" 
-F 0 "Q?" H 1890 3596 50  0000 L CNN
-F 1 "MMDT2222A" H 1890 3505 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1900 3650 50  0001 C CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds30125.pdf" H 1700 3550 50  0001 C CNN
-	1    1700 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L analogue-cache:+3.3V #PWR?
-U 1 1 61CF0BD2
-P 2550 3100
-AR Path="/61CF0BD2" Ref="#PWR?"  Part="1" 
-AR Path="/61C80F8F/61CF0BD2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2550 2950 50  0001 C CNN
-F 1 "+3.3V" V 2565 3228 50  0000 L CNN
-F 2 "" H 2550 3100 50  0001 C CNN
-F 3 "" H 2550 3100 50  0001 C CNN
-	1    2550 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 4050 2550 3950
-$Comp
-L power:GND #PWR?
-U 1 1 61CF0BD9
-P 2550 4050
-AR Path="/61CF0BD9" Ref="#PWR?"  Part="1" 
-AR Path="/61C80F8F/61CF0BD9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2550 3800 50  0001 C CNN
-F 1 "GND" V 2555 3922 50  0000 R CNN
-F 2 "" H 2550 4050 50  0001 C CNN
-F 3 "" H 2550 4050 50  0001 C CNN
-	1    2550 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small 1000uF?
-U 1 1 61CF0BDF
-P 2550 3650
-AR Path="/61CF0BDF" Ref="1000uF?"  Part="1" 
-AR Path="/61C80F8F/61CF0BDF" Ref="1000uF?"  Part="1" 
-F 0 "1000uF?" V 2750 3650 50  0000 C CNN
-F 1 "C_Small" V 2650 3650 50  0000 C CNN
-F 2 "" H 2550 3650 50  0001 C CNN
-F 3 "~" H 2550 3650 50  0001 C CNN
-	1    2550 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 61CF0BE5
-P 2850 3650
-AR Path="/61CF0BE5" Ref="R?"  Part="1" 
-AR Path="/61C80F8F/61CF0BE5" Ref="R?"  Part="1" 
-F 0 "R?" H 2909 3696 50  0000 L CNN
-F 1 "500K" H 2909 3605 50  0000 L CNN
-F 2 "" H 2850 3650 50  0001 C CNN
-F 3 "~" H 2850 3650 50  0001 C CNN
-	1    2850 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 3250 1800 3250
-$Comp
-L Device:R_Small R?
-U 1 1 61CF0BEC
-P 2200 3250
-AR Path="/61CF0BEC" Ref="R?"  Part="1" 
-AR Path="/61C80F8F/61CF0BEC" Ref="R?"  Part="1" 
-F 0 "R?" V 2400 3250 50  0000 C CNN
-F 1 "E-match" V 2300 3250 50  0000 C CNN
-F 2 "" H 2200 3250 50  0001 C CNN
-F 3 "~" H 2200 3250 50  0001 C CNN
-	1    2200 3250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2300 3250 2450 3250
-Wire Wire Line
-	2450 3250 2450 3350
-Wire Wire Line
-	2450 3350 2550 3350
-Wire Wire Line
-	2550 3300 2550 3350
-Connection ~ 2550 3350
-Wire Wire Line
-	1800 3950 2550 3950
-Connection ~ 2550 3950
-Wire Wire Line
-	2850 3950 2850 3750
-Wire Wire Line
-	2550 3950 2850 3950
-Wire Wire Line
-	2850 3550 2850 3350
-Wire Wire Line
-	2550 3350 2850 3350
-Wire Wire Line
-	2550 3350 2550 3550
-Wire Wire Line
-	2550 3750 2550 3950
-Wire Wire Line
-	1500 3550 1500 3750
-Wire Wire Line
-	1500 3950 1800 3950
-Connection ~ 1800 3950
-Connection ~ 1500 3550
-$Comp
-L Device:R_Small R?
-U 1 1 61CF0C03
-P 1500 3850
-AR Path="/61CF0C03" Ref="R?"  Part="1" 
-AR Path="/61C80F8F/61CF0C03" Ref="R?"  Part="1" 
-F 0 "R?" H 1441 3804 50  0000 R CNN
-F 1 "10K" H 1441 3895 50  0000 R CNN
-F 2 "" H 1500 3850 50  0001 C CNN
-F 3 "~" H 1500 3850 50  0001 C CNN
-	1    1500 3850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1050 3550 1300 3550
-$Comp
-L Device:R_Small 1K?
-U 1 1 61CF0C0A
-P 2550 3200
-AR Path="/61CF0C0A" Ref="1K?"  Part="1" 
-AR Path="/61C80F8F/61CF0C0A" Ref="1K?"  Part="1" 
-F 0 "1K?" H 2609 3246 50  0000 L CNN
-F 1 "1K" H 2609 3155 50  0000 L CNN
-F 2 "" H 2550 3200 50  0001 C CNN
-F 3 "~" H 2550 3200 50  0001 C CNN
-	1    2550 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 61CF7E8F
+U 1 1 61CD46E7
 P 1400 5200
-AR Path="/61CF7E8F" Ref="R?"  Part="1" 
-AR Path="/61C80F8F/61CF7E8F" Ref="R?"  Part="1" 
+AR Path="/61CD46E7" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61CD46E7" Ref="R?"  Part="1" 
 F 0 "R?" V 1204 5200 50  0000 C CNN
 F 1 "10K" V 1295 5200 50  0000 C CNN
 F 2 "" H 1400 5200 50  0001 C CNN
@@ -2522,12 +2343,17 @@ Wire Wire Line
 	1800 4900 1800 5000
 Wire Wire Line
 	1800 5400 1800 5600
+Wire Wire Line
+	1800 5600 2550 5600
+Connection ~ 1800 5600
+Wire Wire Line
+	1500 5600 1800 5600
 $Comp
 L Transistor_BJT:MMDT2222A Q?
-U 1 1 61CF7E97
+U 1 1 61CD46EF
 P 1700 5200
-AR Path="/61CF7E97" Ref="Q?"  Part="1" 
-AR Path="/61C80F8F/61CF7E97" Ref="Q?"  Part="1" 
+AR Path="/61CD46EF" Ref="Q?"  Part="1" 
+AR Path="/61C80F8F/61CD46EF" Ref="Q?"  Part="1" 
 F 0 "Q?" H 1890 5246 50  0000 L CNN
 F 1 "MMDT2222A" H 1890 5155 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1900 5300 50  0001 C CNN
@@ -2537,10 +2363,10 @@ F 3 "http://www.diodes.com/_files/datasheets/ds30125.pdf" H 1700 5200 50  0001 C
 $EndComp
 $Comp
 L analogue-cache:+3.3V #PWR?
-U 1 1 61CF7E9D
+U 1 1 61CD46F5
 P 2550 4750
-AR Path="/61CF7E9D" Ref="#PWR?"  Part="1" 
-AR Path="/61C80F8F/61CF7E9D" Ref="#PWR?"  Part="1" 
+AR Path="/61CD46F5" Ref="#PWR?"  Part="1" 
+AR Path="/61C80F8F/61CD46F5" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2550 4600 50  0001 C CNN
 F 1 "+3.3V" V 2565 4878 50  0000 L CNN
 F 2 "" H 2550 4750 50  0001 C CNN
@@ -2548,14 +2374,27 @@ F 3 "" H 2550 4750 50  0001 C CNN
 	1    2550 4750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61CD46FB
+P 2550 4850
+AR Path="/61CD46FB" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61CD46FB" Ref="R?"  Part="1" 
+F 0 "R?" H 2609 4896 50  0000 L CNN
+F 1 "1K" H 2609 4805 50  0000 L CNN
+F 2 "" H 2550 4850 50  0001 C CNN
+F 3 "~" H 2550 4850 50  0001 C CNN
+	1    2550 4850
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2550 5700 2550 5600
 $Comp
 L power:GND #PWR?
-U 1 1 61CF7EA4
+U 1 1 61CD4702
 P 2550 5700
-AR Path="/61CF7EA4" Ref="#PWR?"  Part="1" 
-AR Path="/61C80F8F/61CF7EA4" Ref="#PWR?"  Part="1" 
+AR Path="/61CD4702" Ref="#PWR?"  Part="1" 
+AR Path="/61C80F8F/61CD4702" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2550 5450 50  0001 C CNN
 F 1 "GND" V 2555 5572 50  0000 R CNN
 F 2 "" H 2550 5700 50  0001 C CNN
@@ -2564,13 +2403,13 @@ F 3 "" H 2550 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small 1000uF?
-U 1 1 61CF7EAA
+L Device:C_Small C?
+U 1 1 61CD4708
 P 2550 5300
-AR Path="/61CF7EAA" Ref="1000uF?"  Part="1" 
-AR Path="/61C80F8F/61CF7EAA" Ref="1000uF?"  Part="1" 
-F 0 "1000uF?" V 2750 5300 50  0000 C CNN
-F 1 "C_Small" V 2650 5300 50  0000 C CNN
+AR Path="/61CD4708" Ref="C?"  Part="1" 
+AR Path="/61C80F8F/61CD4708" Ref="C?"  Part="1" 
+F 0 "C?" V 2750 5300 50  0000 C CNN
+F 1 "1000uF" V 2650 5300 50  0000 C CNN
 F 2 "" H 2550 5300 50  0001 C CNN
 F 3 "~" H 2550 5300 50  0001 C CNN
 	1    2550 5300
@@ -2578,10 +2417,10 @@ F 3 "~" H 2550 5300 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_Small R?
-U 1 1 61CF7EB0
+U 1 1 61CD470E
 P 2850 5300
-AR Path="/61CF7EB0" Ref="R?"  Part="1" 
-AR Path="/61C80F8F/61CF7EB0" Ref="R?"  Part="1" 
+AR Path="/61CD470E" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61CD470E" Ref="R?"  Part="1" 
 F 0 "R?" H 2909 5346 50  0000 L CNN
 F 1 "500K" H 2909 5255 50  0000 L CNN
 F 2 "" H 2850 5300 50  0001 C CNN
@@ -2593,10 +2432,10 @@ Wire Wire Line
 	2100 4900 1800 4900
 $Comp
 L Device:R_Small R?
-U 1 1 61CF7EB7
+U 1 1 61CD4715
 P 2200 4900
-AR Path="/61CF7EB7" Ref="R?"  Part="1" 
-AR Path="/61C80F8F/61CF7EB7" Ref="R?"  Part="1" 
+AR Path="/61CD4715" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61CD4715" Ref="R?"  Part="1" 
 F 0 "R?" V 2400 4900 50  0000 C CNN
 F 1 "E-match" V 2300 4900 50  0000 C CNN
 F 2 "" H 2200 4900 50  0001 C CNN
@@ -2612,34 +2451,29 @@ Wire Wire Line
 	2450 5000 2550 5000
 Wire Wire Line
 	2550 4950 2550 5000
-Connection ~ 2550 5000
-Wire Wire Line
-	1800 5600 2550 5600
 Connection ~ 2550 5600
-Wire Wire Line
-	2850 5600 2850 5400
 Wire Wire Line
 	2550 5600 2850 5600
 Wire Wire Line
+	2850 5600 2850 5400
+Wire Wire Line
 	2850 5200 2850 5000
+Connection ~ 2550 5000
 Wire Wire Line
 	2550 5000 2850 5000
 Wire Wire Line
 	2550 5000 2550 5200
 Wire Wire Line
 	2550 5400 2550 5600
+Connection ~ 1500 5200
 Wire Wire Line
 	1500 5200 1500 5400
-Wire Wire Line
-	1500 5600 1800 5600
-Connection ~ 1800 5600
-Connection ~ 1500 5200
 $Comp
 L Device:R_Small R?
-U 1 1 61CF7ECE
+U 1 1 61CD472C
 P 1500 5500
-AR Path="/61CF7ECE" Ref="R?"  Part="1" 
-AR Path="/61C80F8F/61CF7ECE" Ref="R?"  Part="1" 
+AR Path="/61CD472C" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61CD472C" Ref="R?"  Part="1" 
 F 0 "R?" H 1441 5454 50  0000 R CNN
 F 1 "10K" H 1441 5545 50  0000 R CNN
 F 2 "" H 1500 5500 50  0001 C CNN
@@ -2647,27 +2481,12 @@ F 3 "~" H 1500 5500 50  0001 C CNN
 	1    1500 5500
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1050 5200 1300 5200
-$Comp
-L Device:R_Small 1K?
-U 1 1 61CF7ED5
-P 2550 4850
-AR Path="/61CF7ED5" Ref="1K?"  Part="1" 
-AR Path="/61C80F8F/61CF7ED5" Ref="1K?"  Part="1" 
-F 0 "1K?" H 2609 4896 50  0000 L CNN
-F 1 "1K" H 2609 4805 50  0000 L CNN
-F 2 "" H 2550 4850 50  0001 C CNN
-F 3 "~" H 2550 4850 50  0001 C CNN
-	1    2550 4850
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small R?
-U 1 1 61CFDD7C
+U 1 1 61CD8FAE
 P 1400 6850
-AR Path="/61CFDD7C" Ref="R?"  Part="1" 
-AR Path="/61C80F8F/61CFDD7C" Ref="R?"  Part="1" 
+AR Path="/61CD8FAE" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61CD8FAE" Ref="R?"  Part="1" 
 F 0 "R?" V 1204 6850 50  0000 C CNN
 F 1 "10K" V 1295 6850 50  0000 C CNN
 F 2 "" H 1400 6850 50  0001 C CNN
@@ -2679,12 +2498,17 @@ Wire Wire Line
 	1800 6550 1800 6650
 Wire Wire Line
 	1800 7050 1800 7250
+Wire Wire Line
+	1800 7250 2550 7250
+Connection ~ 1800 7250
+Wire Wire Line
+	1500 7250 1800 7250
 $Comp
 L Transistor_BJT:MMDT2222A Q?
-U 1 1 61CFDD84
+U 1 1 61CD8FB6
 P 1700 6850
-AR Path="/61CFDD84" Ref="Q?"  Part="1" 
-AR Path="/61C80F8F/61CFDD84" Ref="Q?"  Part="1" 
+AR Path="/61CD8FB6" Ref="Q?"  Part="1" 
+AR Path="/61C80F8F/61CD8FB6" Ref="Q?"  Part="1" 
 F 0 "Q?" H 1890 6896 50  0000 L CNN
 F 1 "MMDT2222A" H 1890 6805 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1900 6950 50  0001 C CNN
@@ -2694,10 +2518,10 @@ F 3 "http://www.diodes.com/_files/datasheets/ds30125.pdf" H 1700 6850 50  0001 C
 $EndComp
 $Comp
 L analogue-cache:+3.3V #PWR?
-U 1 1 61CFDD8A
+U 1 1 61CD8FBC
 P 2550 6400
-AR Path="/61CFDD8A" Ref="#PWR?"  Part="1" 
-AR Path="/61C80F8F/61CFDD8A" Ref="#PWR?"  Part="1" 
+AR Path="/61CD8FBC" Ref="#PWR?"  Part="1" 
+AR Path="/61C80F8F/61CD8FBC" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2550 6250 50  0001 C CNN
 F 1 "+3.3V" V 2565 6528 50  0000 L CNN
 F 2 "" H 2550 6400 50  0001 C CNN
@@ -2705,14 +2529,27 @@ F 3 "" H 2550 6400 50  0001 C CNN
 	1    2550 6400
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61CD8FC2
+P 2550 6500
+AR Path="/61CD8FC2" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61CD8FC2" Ref="R?"  Part="1" 
+F 0 "R?" H 2609 6546 50  0000 L CNN
+F 1 "1K" H 2609 6455 50  0000 L CNN
+F 2 "" H 2550 6500 50  0001 C CNN
+F 3 "~" H 2550 6500 50  0001 C CNN
+	1    2550 6500
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2550 7350 2550 7250
 $Comp
 L power:GND #PWR?
-U 1 1 61CFDD91
+U 1 1 61CD8FC9
 P 2550 7350
-AR Path="/61CFDD91" Ref="#PWR?"  Part="1" 
-AR Path="/61C80F8F/61CFDD91" Ref="#PWR?"  Part="1" 
+AR Path="/61CD8FC9" Ref="#PWR?"  Part="1" 
+AR Path="/61C80F8F/61CD8FC9" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2550 7100 50  0001 C CNN
 F 1 "GND" V 2555 7222 50  0000 R CNN
 F 2 "" H 2550 7350 50  0001 C CNN
@@ -2721,13 +2558,13 @@ F 3 "" H 2550 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small 1000uF?
-U 1 1 61CFDD97
+L Device:C_Small C?
+U 1 1 61CD8FCF
 P 2550 6950
-AR Path="/61CFDD97" Ref="1000uF?"  Part="1" 
-AR Path="/61C80F8F/61CFDD97" Ref="1000uF?"  Part="1" 
-F 0 "1000uF?" V 2750 6950 50  0000 C CNN
-F 1 "C_Small" V 2650 6950 50  0000 C CNN
+AR Path="/61CD8FCF" Ref="C?"  Part="1" 
+AR Path="/61C80F8F/61CD8FCF" Ref="C?"  Part="1" 
+F 0 "C?" V 2750 6950 50  0000 C CNN
+F 1 "1000uF" V 2650 6950 50  0000 C CNN
 F 2 "" H 2550 6950 50  0001 C CNN
 F 3 "~" H 2550 6950 50  0001 C CNN
 	1    2550 6950
@@ -2735,10 +2572,10 @@ F 3 "~" H 2550 6950 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_Small R?
-U 1 1 61CFDD9D
+U 1 1 61CD8FD5
 P 2850 6950
-AR Path="/61CFDD9D" Ref="R?"  Part="1" 
-AR Path="/61C80F8F/61CFDD9D" Ref="R?"  Part="1" 
+AR Path="/61CD8FD5" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61CD8FD5" Ref="R?"  Part="1" 
 F 0 "R?" H 2909 6996 50  0000 L CNN
 F 1 "500K" H 2909 6905 50  0000 L CNN
 F 2 "" H 2850 6950 50  0001 C CNN
@@ -2750,10 +2587,10 @@ Wire Wire Line
 	2100 6550 1800 6550
 $Comp
 L Device:R_Small R?
-U 1 1 61CFDDA4
+U 1 1 61CD8FDC
 P 2200 6550
-AR Path="/61CFDDA4" Ref="R?"  Part="1" 
-AR Path="/61C80F8F/61CFDDA4" Ref="R?"  Part="1" 
+AR Path="/61CD8FDC" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61CD8FDC" Ref="R?"  Part="1" 
 F 0 "R?" V 2400 6550 50  0000 C CNN
 F 1 "E-match" V 2300 6550 50  0000 C CNN
 F 2 "" H 2200 6550 50  0001 C CNN
@@ -2769,34 +2606,29 @@ Wire Wire Line
 	2450 6650 2550 6650
 Wire Wire Line
 	2550 6600 2550 6650
-Connection ~ 2550 6650
-Wire Wire Line
-	1800 7250 2550 7250
 Connection ~ 2550 7250
-Wire Wire Line
-	2850 7250 2850 7050
 Wire Wire Line
 	2550 7250 2850 7250
 Wire Wire Line
+	2850 7250 2850 7050
+Wire Wire Line
 	2850 6850 2850 6650
+Connection ~ 2550 6650
 Wire Wire Line
 	2550 6650 2850 6650
 Wire Wire Line
 	2550 6650 2550 6850
 Wire Wire Line
 	2550 7050 2550 7250
+Connection ~ 1500 6850
 Wire Wire Line
 	1500 6850 1500 7050
-Wire Wire Line
-	1500 7250 1800 7250
-Connection ~ 1800 7250
-Connection ~ 1500 6850
 $Comp
 L Device:R_Small R?
-U 1 1 61CFDDBB
+U 1 1 61CD8FF3
 P 1500 7150
-AR Path="/61CFDDBB" Ref="R?"  Part="1" 
-AR Path="/61C80F8F/61CFDDBB" Ref="R?"  Part="1" 
+AR Path="/61CD8FF3" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61CD8FF3" Ref="R?"  Part="1" 
 F 0 "R?" H 1441 7104 50  0000 R CNN
 F 1 "10K" H 1441 7195 50  0000 R CNN
 F 2 "" H 1500 7150 50  0001 C CNN
@@ -2805,18 +2637,186 @@ F 3 "~" H 1500 7150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1050 6850 1300 6850
+	1050 3550 1300 3550
 $Comp
-L Device:R_Small 1K?
-U 1 1 61CFDDC2
-P 2550 6500
-AR Path="/61CFDDC2" Ref="1K?"  Part="1" 
-AR Path="/61C80F8F/61CFDDC2" Ref="1K?"  Part="1" 
-F 0 "1K?" H 2609 6546 50  0000 L CNN
-F 1 "1K" H 2609 6455 50  0000 L CNN
-F 2 "" H 2550 6500 50  0001 C CNN
-F 3 "~" H 2550 6500 50  0001 C CNN
-	1    2550 6500
+L Device:R_Small R?
+U 1 1 61CD19B1
+P 1500 3850
+AR Path="/61CD19B1" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61CD19B1" Ref="R?"  Part="1" 
+F 0 "R?" H 1441 3804 50  0000 R CNN
+F 1 "10K" H 1441 3895 50  0000 R CNN
+F 2 "" H 1500 3850 50  0001 C CNN
+F 3 "~" H 1500 3850 50  0001 C CNN
+	1    1500 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1500 3550 1500 3750
+Wire Wire Line
+	2550 3750 2550 3950
+Wire Wire Line
+	2550 3350 2550 3550
+Wire Wire Line
+	2550 3350 2850 3350
+Wire Wire Line
+	2850 3550 2850 3350
+Wire Wire Line
+	2850 3950 2850 3750
+Wire Wire Line
+	2550 3950 2850 3950
+Connection ~ 2550 3950
+Connection ~ 2550 3350
+Wire Wire Line
+	2550 3300 2550 3350
+Wire Wire Line
+	2450 3350 2550 3350
+Wire Wire Line
+	2450 3250 2450 3350
+Wire Wire Line
+	2300 3250 2450 3250
+$Comp
+L Device:R_Small R?
+U 1 1 61CD199A
+P 2200 3250
+AR Path="/61CD199A" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61CD199A" Ref="R?"  Part="1" 
+F 0 "R?" V 2400 3250 50  0000 C CNN
+F 1 "E-match" V 2300 3250 50  0000 C CNN
+F 2 "" H 2200 3250 50  0001 C CNN
+F 3 "~" H 2200 3250 50  0001 C CNN
+	1    2200 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 3250 1800 3250
+$Comp
+L Device:R_Small R?
+U 1 1 61CD1993
+P 2850 3650
+AR Path="/61CD1993" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61CD1993" Ref="R?"  Part="1" 
+F 0 "R?" H 2909 3696 50  0000 L CNN
+F 1 "500K" H 2909 3605 50  0000 L CNN
+F 2 "" H 2850 3650 50  0001 C CNN
+F 3 "~" H 2850 3650 50  0001 C CNN
+	1    2850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61CD198D
+P 2550 3650
+AR Path="/61CD198D" Ref="C?"  Part="1" 
+AR Path="/61C80F8F/61CD198D" Ref="C?"  Part="1" 
+F 0 "C?" V 2750 3650 50  0000 C CNN
+F 1 "1000uF" V 2650 3650 50  0000 C CNN
+F 2 "" H 2550 3650 50  0001 C CNN
+F 3 "~" H 2550 3650 50  0001 C CNN
+	1    2550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CD1987
+P 2550 4050
+AR Path="/61CD1987" Ref="#PWR?"  Part="1" 
+AR Path="/61C80F8F/61CD1987" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2550 3800 50  0001 C CNN
+F 1 "GND" V 2555 3922 50  0000 R CNN
+F 2 "" H 2550 4050 50  0001 C CNN
+F 3 "" H 2550 4050 50  0001 C CNN
+	1    2550 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 4050 2550 3950
+$Comp
+L Device:R_Small R?
+U 1 1 61CD1980
+P 2550 3200
+AR Path="/61CD1980" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61CD1980" Ref="R?"  Part="1" 
+F 0 "R?" H 2609 3246 50  0000 L CNN
+F 1 "1K" H 2609 3155 50  0000 L CNN
+F 2 "" H 2550 3200 50  0001 C CNN
+F 3 "~" H 2550 3200 50  0001 C CNN
+	1    2550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L analogue-cache:+3.3V #PWR?
+U 1 1 61CD197A
+P 2550 3100
+AR Path="/61CD197A" Ref="#PWR?"  Part="1" 
+AR Path="/61C80F8F/61CD197A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2550 2950 50  0001 C CNN
+F 1 "+3.3V" V 2565 3228 50  0000 L CNN
+F 2 "" H 2550 3100 50  0001 C CNN
+F 3 "" H 2550 3100 50  0001 C CNN
+	1    2550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:MMDT2222A Q?
+U 1 1 61CD1974
+P 1700 3550
+AR Path="/61CD1974" Ref="Q?"  Part="1" 
+AR Path="/61C80F8F/61CD1974" Ref="Q?"  Part="1" 
+F 0 "Q?" H 1890 3596 50  0000 L CNN
+F 1 "MMDT2222A" H 1890 3505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1900 3650 50  0001 C CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds30125.pdf" H 1700 3550 50  0001 C CNN
+	1    1700 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 3950 1800 3950
+Wire Wire Line
+	1800 3950 2550 3950
+Connection ~ 1800 3950
+Wire Wire Line
+	1800 3750 1800 3950
+Wire Wire Line
+	1800 3250 1800 3350
+Connection ~ 1500 3550
+$Comp
+L Device:R_Small R?
+U 1 1 61CD196C
+P 1400 3550
+AR Path="/61CD196C" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61CD196C" Ref="R?"  Part="1" 
+F 0 "R?" V 1204 3550 50  0000 C CNN
+F 1 "10K" V 1295 3550 50  0000 C CNN
+F 2 "" H 1400 3550 50  0001 C CNN
+F 3 "~" H 1400 3550 50  0001 C CNN
+	1    1400 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61C92AAE
+P 1500 2200
+AR Path="/61C92AAE" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61C92AAE" Ref="R?"  Part="1" 
+F 0 "R?" H 1441 2154 50  0000 R CNN
+F 1 "10K" H 1441 2245 50  0000 R CNN
+F 2 "" H 1500 2200 50  0001 C CNN
+F 3 "~" H 1500 2200 50  0001 C CNN
+	1    1500 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61C92A7D
+P 2550 1550
+AR Path="/61C92A7D" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61C92A7D" Ref="R?"  Part="1" 
+F 0 "R?" H 2609 1596 50  0000 L CNN
+F 1 "1K" H 2609 1505 50  0000 L CNN
+F 2 "" H 2550 1550 50  0001 C CNN
+F 3 "~" H 2550 1550 50  0001 C CNN
+	1    2550 1550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

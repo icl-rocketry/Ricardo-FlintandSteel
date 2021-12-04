@@ -1220,4 +1220,33 @@ F5 "IGN_3" I L 10600 1100 50
 $EndSheet
 Text Notes 9150 600  0    50   ~ 0
 This can be expanded to as many pins are available
+Text Label 2000 1350 2    50   ~ 0
+LNA_IN
+$Comp
+L Device:LED_Small D?
+U 1 1 61AC36BB
+P 1700 1350
+F 0 "D?" H 1700 1145 50  0000 C CNN
+F 1 "LNA_LED" H 1700 1236 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" V 1700 1350 50  0001 C CNN
+F 3 "~" V 1700 1350 50  0001 C CNN
+	1    1700 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61AC36C1
+P 1400 1350
+F 0 "R?" V 1204 1350 50  0000 C CNN
+F 1 "470" V 1295 1350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1400 1350 50  0001 C CNN
+F 3 "~" H 1400 1350 50  0001 C CNN
+	1    1400 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 1350 1500 1350
+Wire Wire Line
+	1800 1350 2000 1350
+Connection ~ 1300 1350
 $EndSCHEMATC
