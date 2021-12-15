@@ -2819,4 +2819,324 @@ F 3 "~" H 2550 1550 50  0001 C CNN
 	1    2550 1550
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61BBCE8C
+P 4150 1900
+AR Path="/61BBCE8C" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61BBCE8C" Ref="R?"  Part="1" 
+F 0 "R?" V 3954 1900 50  0000 C CNN
+F 1 "10K" V 4045 1900 50  0000 C CNN
+F 2 "" H 4150 1900 50  0001 C CNN
+F 3 "~" H 4150 1900 50  0001 C CNN
+	1    4150 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 1600 4550 1700
+Wire Wire Line
+	4550 2100 4550 2300
+$Comp
+L Transistor_BJT:MMDT2222A Q?
+U 1 1 61BBCE94
+P 4450 1900
+AR Path="/61BBCE94" Ref="Q?"  Part="1" 
+AR Path="/61C80F8F/61BBCE94" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4640 1946 50  0000 L CNN
+F 1 "MMDT2222A" H 4640 1855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4650 2000 50  0001 C CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds30125.pdf" H 4450 1900 50  0001 C CNN
+	1    4450 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L analogue-cache:+3.3V #PWR?
+U 1 1 61BBCE9A
+P 5300 1450
+AR Path="/61BBCE9A" Ref="#PWR?"  Part="1" 
+AR Path="/61C80F8F/61BBCE9A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5300 1300 50  0001 C CNN
+F 1 "+3.3V" V 5315 1578 50  0000 L CNN
+F 2 "" H 5300 1450 50  0001 C CNN
+F 3 "" H 5300 1450 50  0001 C CNN
+	1    5300 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2400 5300 2300
+$Comp
+L power:GND #PWR?
+U 1 1 61BBCEA1
+P 5300 2400
+AR Path="/61BBCEA1" Ref="#PWR?"  Part="1" 
+AR Path="/61C80F8F/61BBCEA1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5300 2150 50  0001 C CNN
+F 1 "GND" V 5305 2272 50  0000 R CNN
+F 2 "" H 5300 2400 50  0001 C CNN
+F 3 "" H 5300 2400 50  0001 C CNN
+	1    5300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61BBCEA7
+P 5600 2000
+AR Path="/61BBCEA7" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61BBCEA7" Ref="R?"  Part="1" 
+F 0 "R?" H 5659 2046 50  0000 L CNN
+F 1 "500K" H 5659 1955 50  0000 L CNN
+F 2 "" H 5600 2000 50  0001 C CNN
+F 3 "~" H 5600 2000 50  0001 C CNN
+	1    5600 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1600 4550 1600
+$Comp
+L Device:R_Small R?
+U 1 1 61BBCEAE
+P 4950 1600
+AR Path="/61BBCEAE" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61BBCEAE" Ref="R?"  Part="1" 
+F 0 "R?" V 5150 1600 50  0000 C CNN
+F 1 "E-match" V 5050 1600 50  0000 C CNN
+F 2 "" H 4950 1600 50  0001 C CNN
+F 3 "~" H 4950 1600 50  0001 C CNN
+	1    4950 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 1600 5200 1600
+Wire Wire Line
+	5200 1600 5200 1700
+Wire Wire Line
+	5200 1700 5300 1700
+Wire Wire Line
+	5300 1650 5300 1700
+Connection ~ 5300 1700
+Wire Wire Line
+	4550 2300 5300 2300
+Connection ~ 5300 2300
+Wire Wire Line
+	5600 2300 5600 2100
+Wire Wire Line
+	5300 2300 5600 2300
+Wire Wire Line
+	5600 1900 5600 1700
+Wire Wire Line
+	5300 1700 5600 1700
+Wire Wire Line
+	5300 1700 5300 1900
+Wire Wire Line
+	5300 2100 5300 2300
+Wire Wire Line
+	4250 1900 4250 2100
+Wire Wire Line
+	4250 2300 4550 2300
+Connection ~ 4550 2300
+Connection ~ 4250 1900
+Wire Wire Line
+	3800 1900 4050 1900
+Text HLabel 3800 1900 0    50   Input ~ 0
+IGN_4
+Text HLabel 3800 3550 0    50   Input ~ 0
+IGN_5
+$Comp
+L Device:C_Small C?
+U 1 1 61BBCECA
+P 5300 2000
+AR Path="/61BBCECA" Ref="C?"  Part="1" 
+AR Path="/61C80F8F/61BBCECA" Ref="C?"  Part="1" 
+F 0 "C?" V 5500 2000 50  0000 C CNN
+F 1 "1000uF" V 5400 2000 50  0000 C CNN
+F 2 "" H 5300 2000 50  0001 C CNN
+F 3 "~" H 5300 2000 50  0001 C CNN
+	1    5300 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3550 4050 3550
+$Comp
+L Device:R_Small R?
+U 1 1 61BBCF69
+P 4250 3850
+AR Path="/61BBCF69" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61BBCF69" Ref="R?"  Part="1" 
+F 0 "R?" H 4191 3804 50  0000 R CNN
+F 1 "10K" H 4191 3895 50  0000 R CNN
+F 2 "" H 4250 3850 50  0001 C CNN
+F 3 "~" H 4250 3850 50  0001 C CNN
+	1    4250 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 3550 4250 3750
+Wire Wire Line
+	5300 3750 5300 3950
+Wire Wire Line
+	5300 3350 5300 3550
+Wire Wire Line
+	5300 3350 5600 3350
+Wire Wire Line
+	5600 3550 5600 3350
+Wire Wire Line
+	5600 3950 5600 3750
+Wire Wire Line
+	5300 3950 5600 3950
+Connection ~ 5300 3950
+Connection ~ 5300 3350
+Wire Wire Line
+	5300 3300 5300 3350
+Wire Wire Line
+	5200 3350 5300 3350
+Wire Wire Line
+	5200 3250 5200 3350
+Wire Wire Line
+	5050 3250 5200 3250
+$Comp
+L Device:R_Small R?
+U 1 1 61BBCF7C
+P 4950 3250
+AR Path="/61BBCF7C" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61BBCF7C" Ref="R?"  Part="1" 
+F 0 "R?" V 5150 3250 50  0000 C CNN
+F 1 "E-match" V 5050 3250 50  0000 C CNN
+F 2 "" H 4950 3250 50  0001 C CNN
+F 3 "~" H 4950 3250 50  0001 C CNN
+	1    4950 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 3250 4550 3250
+$Comp
+L Device:R_Small R?
+U 1 1 61BBCF83
+P 5600 3650
+AR Path="/61BBCF83" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61BBCF83" Ref="R?"  Part="1" 
+F 0 "R?" H 5659 3696 50  0000 L CNN
+F 1 "500K" H 5659 3605 50  0000 L CNN
+F 2 "" H 5600 3650 50  0001 C CNN
+F 3 "~" H 5600 3650 50  0001 C CNN
+	1    5600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61BBCF89
+P 5300 3650
+AR Path="/61BBCF89" Ref="C?"  Part="1" 
+AR Path="/61C80F8F/61BBCF89" Ref="C?"  Part="1" 
+F 0 "C?" V 5500 3650 50  0000 C CNN
+F 1 "1000uF" V 5400 3650 50  0000 C CNN
+F 2 "" H 5300 3650 50  0001 C CNN
+F 3 "~" H 5300 3650 50  0001 C CNN
+	1    5300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61BBCF8F
+P 5300 4050
+AR Path="/61BBCF8F" Ref="#PWR?"  Part="1" 
+AR Path="/61C80F8F/61BBCF8F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5300 3800 50  0001 C CNN
+F 1 "GND" V 5305 3922 50  0000 R CNN
+F 2 "" H 5300 4050 50  0001 C CNN
+F 3 "" H 5300 4050 50  0001 C CNN
+	1    5300 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4050 5300 3950
+$Comp
+L Device:R_Small R?
+U 1 1 61BBCF96
+P 5300 3200
+AR Path="/61BBCF96" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61BBCF96" Ref="R?"  Part="1" 
+F 0 "R?" H 5359 3246 50  0000 L CNN
+F 1 "1K" H 5359 3155 50  0000 L CNN
+F 2 "" H 5300 3200 50  0001 C CNN
+F 3 "~" H 5300 3200 50  0001 C CNN
+	1    5300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L analogue-cache:+3.3V #PWR?
+U 1 1 61BBCF9C
+P 5300 3100
+AR Path="/61BBCF9C" Ref="#PWR?"  Part="1" 
+AR Path="/61C80F8F/61BBCF9C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5300 2950 50  0001 C CNN
+F 1 "+3.3V" V 5315 3228 50  0000 L CNN
+F 2 "" H 5300 3100 50  0001 C CNN
+F 3 "" H 5300 3100 50  0001 C CNN
+	1    5300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:MMDT2222A Q?
+U 1 1 61BBCFA2
+P 4450 3550
+AR Path="/61BBCFA2" Ref="Q?"  Part="1" 
+AR Path="/61C80F8F/61BBCFA2" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4640 3596 50  0000 L CNN
+F 1 "MMDT2222A" H 4640 3505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4650 3650 50  0001 C CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds30125.pdf" H 4450 3550 50  0001 C CNN
+	1    4450 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3950 4550 3950
+Wire Wire Line
+	4550 3950 5300 3950
+Connection ~ 4550 3950
+Wire Wire Line
+	4550 3750 4550 3950
+Wire Wire Line
+	4550 3250 4550 3350
+Connection ~ 4250 3550
+$Comp
+L Device:R_Small R?
+U 1 1 61BBCFAE
+P 4150 3550
+AR Path="/61BBCFAE" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61BBCFAE" Ref="R?"  Part="1" 
+F 0 "R?" V 3954 3550 50  0000 C CNN
+F 1 "10K" V 4045 3550 50  0000 C CNN
+F 2 "" H 4150 3550 50  0001 C CNN
+F 3 "~" H 4150 3550 50  0001 C CNN
+	1    4150 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61BBCFB4
+P 4250 2200
+AR Path="/61BBCFB4" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61BBCFB4" Ref="R?"  Part="1" 
+F 0 "R?" H 4191 2154 50  0000 R CNN
+F 1 "10K" H 4191 2245 50  0000 R CNN
+F 2 "" H 4250 2200 50  0001 C CNN
+F 3 "~" H 4250 2200 50  0001 C CNN
+	1    4250 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61BBCFBA
+P 5300 1550
+AR Path="/61BBCFBA" Ref="R?"  Part="1" 
+AR Path="/61C80F8F/61BBCFBA" Ref="R?"  Part="1" 
+F 0 "R?" H 5359 1596 50  0000 L CNN
+F 1 "1K" H 5359 1505 50  0000 L CNN
+F 2 "" H 5300 1550 50  0001 C CNN
+F 3 "~" H 5300 1550 50  0001 C CNN
+	1    5300 1550
+	1    0    0    -1  
+$EndComp
+Text Notes 550  600  0    50   ~ 0
+This is expandable for as many free / "chip/ignitor select" pins that we can utilise 
 $EndSCHEMATC

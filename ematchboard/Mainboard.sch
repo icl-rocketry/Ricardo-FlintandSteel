@@ -1051,17 +1051,6 @@ Wire Wire Line
 	7000 4250 7350 4250
 Wire Wire Line
 	7000 4150 7350 4150
-$Comp
-L RF_Module:ESP32-WROOM-32 U3
-U 1 1 5DA5F4C7
-P 6400 5350
-F 0 "U3" H 6400 6931 50  0000 C CNN
-F 1 "ESP32-WROOM-32D" H 6400 6840 50  0000 C CNN
-F 2 "RF_Module:ESP32-WROOM-32" H 6400 3850 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 6100 5400 50  0001 C CNN
-	1    6400 5350
-	1    0    0    -1  
-$EndComp
 NoConn ~ 7000 6350
 NoConn ~ 7000 6450
 $Comp
@@ -1155,37 +1144,37 @@ Wire Wire Line
 	7450 2100 7450 1800
 Connection ~ 7450 1800
 Wire Wire Line
-	7350 4650 7000 4650
-Text Label 7350 4650 2    50   ~ 0
-MTCH_0
-Text Label 9550 6000 0    50   ~ 0
-MTCH_0
-Text Label 9550 6100 0    50   ~ 0
-MTCH_1
-Text Label 9550 6200 0    50   ~ 0
-MTCH_2
-Text Label 9550 6300 0    50   ~ 0
-MTCH_3
-Wire Wire Line
-	9550 6000 9900 6000
-Wire Wire Line
-	9900 6100 9550 6100
-Wire Wire Line
-	9550 6200 9900 6200
-Wire Wire Line
-	9900 6300 9550 6300
-Text Label 7350 4750 2    50   ~ 0
-MTCH_1
-Text Label 7350 4850 2    50   ~ 0
-MTCH_2
-Text Label 7350 4950 2    50   ~ 0
-MTCH_3
-Wire Wire Line
-	7350 4950 7000 4950
-Wire Wire Line
-	7000 4850 7350 4850
-Wire Wire Line
 	7350 4750 7000 4750
+Text Label 7350 4750 2    50   ~ 0
+MTCH_0
+Text Label 9500 5750 0    50   ~ 0
+MTCH_0
+Text Label 9500 5850 0    50   ~ 0
+MTCH_1
+Text Label 9500 5950 0    50   ~ 0
+MTCH_2
+Text Label 9500 6050 0    50   ~ 0
+MTCH_3
+Wire Wire Line
+	9500 5750 9850 5750
+Wire Wire Line
+	9850 5850 9500 5850
+Wire Wire Line
+	9500 5950 9850 5950
+Wire Wire Line
+	9850 6050 9500 6050
+Text Label 7350 4850 2    50   ~ 0
+MTCH_1
+Text Label 7350 4950 2    50   ~ 0
+MTCH_2
+Text Label 7350 5050 2    50   ~ 0
+MTCH_3
+Wire Wire Line
+	7350 5050 7000 5050
+Wire Wire Line
+	7000 4950 7350 4950
+Wire Wire Line
+	7350 4850 7000 4850
 Wire Wire Line
 	7000 5550 7350 5550
 Wire Wire Line
@@ -1207,22 +1196,21 @@ MOSI
 Text Label 7350 5350 2    50   ~ 0
 SCLK
 $Sheet
-S 9900 5950 550  450 
+S 9850 5700 550  700 
 U 61C80F8F
 F0 "ematch" 50
 F1 "ematch.sch" 50
-F2 "IGN_0" I L 9900 6000 50 
-F3 "IGN_1" I L 9900 6100 50 
-F4 "IGN_2" I L 9900 6200 50 
-F5 "IGN_3" I L 9900 6300 50 
+F2 "IGN_0" I L 9850 5750 50 
+F3 "IGN_1" I L 9850 5850 50 
+F4 "IGN_2" I L 9850 5950 50 
+F5 "IGN_3" I L 9850 6050 50 
+F6 "IGN_4" I L 9850 6150 50 
+F7 "IGN_5" I L 9850 6250 50 
 $EndSheet
-Text Notes 8450 5800 0    50   ~ 0
+Text Notes 8450 5350 0    50   ~ 0
 This can be expanded to as many pins are available
 Wire Wire Line
 	2200 1000 2200 1750
-NoConn ~ 7000 5050
-NoConn ~ 7000 5150
-NoConn ~ 7000 5250
 NoConn ~ 7000 5950
 NoConn ~ 7000 6050
 Text Label 7350 5850 2    50   ~ 0
@@ -1270,6 +1258,34 @@ Wire Wire Line
 	4400 1800 4400 1700
 Wire Wire Line
 	4100 1000 4400 1000
-Text Notes 8450 5600 0    50   ~ 0
+Text Notes 8450 5150 0    50   ~ 0
 It might also be desirable to control charging from the ESP - \nthen a transistor could be used between 3.3V and the input voltage \nfor the ignitor circuits - rather than charging starting automatically \nonce the buck-boost starts operating\n
+$Comp
+L RF_Module:ESP32-WROOM-32 U3
+U 1 1 5DA5F4C7
+P 6400 5350
+F 0 "U3" H 6400 6931 50  0000 C CNN
+F 1 "ESP32-WROOM-32D" H 6400 6840 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 6400 3850 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 6100 5400 50  0001 C CNN
+	1    6400 5350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7000 4650
+Text Label 7350 5150 2    50   ~ 0
+MTCH_4
+Text Label 7350 5250 2    50   ~ 0
+MTCH_5
+Wire Wire Line
+	7350 5250 7000 5250
+Wire Wire Line
+	7000 5150 7350 5150
+Text Label 9500 6150 0    50   ~ 0
+MTCH_4
+Text Label 9500 6250 0    50   ~ 0
+MTCH_5
+Wire Wire Line
+	9500 6150 9850 6150
+Wire Wire Line
+	9850 6250 9500 6250
 $EndSCHEMATC

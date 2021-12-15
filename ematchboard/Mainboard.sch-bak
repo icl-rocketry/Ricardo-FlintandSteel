@@ -1158,22 +1158,22 @@ Wire Wire Line
 	7350 4650 7000 4650
 Text Label 7350 4650 2    50   ~ 0
 MTCH_0
-Text Label 10250 800  0    50   ~ 0
+Text Label 9550 6000 0    50   ~ 0
 MTCH_0
-Text Label 10250 900  0    50   ~ 0
+Text Label 9550 6100 0    50   ~ 0
 MTCH_1
-Text Label 10250 1000 0    50   ~ 0
+Text Label 9550 6200 0    50   ~ 0
 MTCH_2
-Text Label 10250 1100 0    50   ~ 0
+Text Label 9550 6300 0    50   ~ 0
 MTCH_3
 Wire Wire Line
-	10250 800  10600 800 
+	9550 6000 9900 6000
 Wire Wire Line
-	10600 900  10250 900 
+	9900 6100 9550 6100
 Wire Wire Line
-	10250 1000 10600 1000
+	9550 6200 9900 6200
 Wire Wire Line
-	10600 1100 10250 1100
+	9900 6300 9550 6300
 Text Label 7350 4750 2    50   ~ 0
 MTCH_1
 Text Label 7350 4850 2    50   ~ 0
@@ -1207,16 +1207,16 @@ MOSI
 Text Label 7350 5350 2    50   ~ 0
 SCLK
 $Sheet
-S 10600 750  550  450 
+S 9900 5950 550  450 
 U 61C80F8F
 F0 "ematch" 50
 F1 "ematch.sch" 50
-F2 "IGN_0" I L 10600 800 50 
-F3 "IGN_1" I L 10600 900 50 
-F4 "IGN_2" I L 10600 1000 50 
-F5 "IGN_3" I L 10600 1100 50 
+F2 "IGN_0" I L 9900 6000 50 
+F3 "IGN_1" I L 9900 6100 50 
+F4 "IGN_2" I L 9900 6200 50 
+F5 "IGN_3" I L 9900 6300 50 
 $EndSheet
-Text Notes 9150 600  0    50   ~ 0
+Text Notes 8450 5800 0    50   ~ 0
 This can be expanded to as many pins are available
 Wire Wire Line
 	2200 1000 2200 1750
@@ -1270,4 +1270,6 @@ Wire Wire Line
 	4400 1800 4400 1700
 Wire Wire Line
 	4100 1000 4400 1000
+Text Notes 8450 5600 0    50   ~ 0
+It might also be desirable to control charging from the ESP - \nthen a transistor could be used between 3.3V and the input voltage \nfor the ignitor circuits - rather than charging starting automatically \nonce the buck-boost starts operating\n
 $EndSCHEMATC
