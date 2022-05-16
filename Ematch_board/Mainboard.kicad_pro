@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -119,6 +119,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.351214,
         0.4,
         0.8
       ],
@@ -351,7 +352,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Mainboard_to_update.kicad_pro",
+    "filename": "Mainboard.kicad_pro",
     "version": 1
   },
   "net_settings": {
