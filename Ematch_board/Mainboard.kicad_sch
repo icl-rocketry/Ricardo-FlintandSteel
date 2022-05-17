@@ -5799,37 +5799,37 @@
       (reference "D7") (unit 1) (value "SM712_SOT23") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-000061c80f8f/00000000-0000-0000-0000-00006201ef05"
-      (reference "D512") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-128")
+      (reference "D512") (unit 1) (value "D_Schottky") (footprint "Package_TO_SOT_SMD:TO-277B")
     )
     (path "/00000000-0000-0000-0000-000061c80f8f/8c7ce44d-7886-413f-9402-aa2ede6b5bea"
       (reference "D513") (unit 1) (value "Continuity") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c80f8f/2563f270-7f8c-4c89-9a50-9d7907b8e223"
-      (reference "D522") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-128")
+      (reference "D522") (unit 1) (value "D_Schottky") (footprint "Package_TO_SOT_SMD:TO-277B")
     )
     (path "/00000000-0000-0000-0000-000061c80f8f/970a776b-7463-4b76-bb22-78cfa029a544"
       (reference "D523") (unit 1) (value "Continuity") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c80f8f/cce30b8d-2c7f-4ad2-ab4b-334e84dd4983"
-      (reference "D532") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-128")
+      (reference "D532") (unit 1) (value "D_Schottky") (footprint "Package_TO_SOT_SMD:TO-277B")
     )
     (path "/00000000-0000-0000-0000-000061c80f8f/e6c3b1c5-6a8d-489b-99e2-7d520e3e8b57"
       (reference "D533") (unit 1) (value "Continuity") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c80f8f/ed3592db-4339-446b-b18d-cb3f02df8496"
-      (reference "D542") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-128")
+      (reference "D542") (unit 1) (value "D_Schottky") (footprint "Package_TO_SOT_SMD:TO-277B")
     )
     (path "/00000000-0000-0000-0000-000061c80f8f/1427a246-c2d7-40d8-aa1e-19f7daf064aa"
       (reference "D543") (unit 1) (value "Continuity") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c80f8f/471ca664-73b6-4bed-b7a2-da20eef9b907"
-      (reference "D552") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-128")
+      (reference "D552") (unit 1) (value "D_Schottky") (footprint "Package_TO_SOT_SMD:TO-277B")
     )
     (path "/00000000-0000-0000-0000-000061c80f8f/1b48dfe4-9ac6-4bf1-b61e-0b7dffc427f9"
       (reference "D553") (unit 1) (value "Continuity") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c80f8f/6730e26d-53b2-42f8-ba21-b1c8c0f2994e"
-      (reference "D562") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-128")
+      (reference "D562") (unit 1) (value "D_Schottky") (footprint "Package_TO_SOT_SMD:TO-277B")
     )
     (path "/00000000-0000-0000-0000-000061c80f8f/5d1675df-19ee-4c81-ba64-9e56fa26bead"
       (reference "D563") (unit 1) (value "Continuity") (footprint "LED_SMD:LED_0603_1608Metric")
