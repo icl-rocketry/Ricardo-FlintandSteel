@@ -1249,19 +1249,6 @@ Button_Switch_SMD
 SW_SP3T_PCM13
 Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf
 
-0
-8
-4
-Button_Switch_SMD
-SW_SPDT_CK-JS102011SAQN
-Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf
-switch spdt
-0
-3
-3
-Button_Switch_SMD
-SW_SPDT_PCM12
-Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf
 
 0
 7
@@ -84539,6 +84526,13 @@ DIO_V3PAN50-M3_I
 2
 2
 iclr
+INDC1006X60N
+
+
+0
+2
+2
+iclr
 IND_ETQP5M330YFM
 
 
@@ -84651,6 +84645,13 @@ SOIC127P599X175-8N
 8
 8
 iclr
+SOIC127P599X175-9N
+
+
+0
+9
+9
+iclr
 SOIC127P600X100-9N
 HTSOP-J8-12
 Integrated Circuit
@@ -84678,6 +84679,13 @@ SOP65P637X110-16N
 0
 17
 17
+iclr
+SOT95P280X145-6N
+
+
+0
+6
+6
 iclr
 TO254P483X1016X2222-3P
 
@@ -84757,6 +84765,13 @@ pickle_ric
 0
 iclr
 ricardo_logo
+
+
+0
+0
+0
+iclr
+spider-man
 
 
 0
