@@ -4756,7 +4756,7 @@
     (in_bom yes) (on_board yes)
     (uuid 9f59f317-c728-437e-b7e8-8cd5c58754eb)
     (property "Reference" "R8" (id 0) (at 76.2 17.8816 90))
-    (property "Value" "3.5k" (id 1) (at 76.2 20.193 90))
+    (property "Value" "3k" (id 1) (at 76.2 20.193 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 76.2 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5894,7 +5894,7 @@
       (reference "R7") (unit 1) (value "470") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/9f59f317-c728-437e-b7e8-8cd5c58754eb"
-      (reference "R8") (unit 1) (value "3.5k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R8") (unit 1) (value "3k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/2e54b3a5-ce43-4593-88d5-e0f9c220138c"
       (reference "R10") (unit 1) (value "56k") (footprint "Resistor_SMD:R_0603_1608Metric")
