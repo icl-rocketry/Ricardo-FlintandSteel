@@ -4419,7 +4419,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 79f9859b-6f0f-4b8d-bc64-43efc8037e4c)
     (property "Reference" "U3" (id 0) (at 85.09 160.02 0))
-    (property "Value" "RT9025-25GSP" (id 1) (at 85.09 162.56 0))
+    (property "Value" "SC4216H" (id 1) (at 85.09 162.56 0))
     (property "Footprint" "iclr:SOIC127P599X175-9N" (id 2) (at 85.09 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6041,7 +6041,7 @@
       (reference "U2") (unit 1) (value "LTC4411") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/79f9859b-6f0f-4b8d-bc64-43efc8037e4c"
-      (reference "U3") (unit 1) (value "RT9025-25GSP") (footprint "iclr:SOIC127P599X175-9N")
+      (reference "U3") (unit 1) (value "SC4216H") (footprint "iclr:SOIC127P599X175-9N")
     )
     (path "/f4b8df4e-cc6e-426d-b25b-296487d3b549"
       (reference "U4") (unit 1) (value "LTC4411") (footprint "Package_TO_SOT_SMD:SOT-23-5")
