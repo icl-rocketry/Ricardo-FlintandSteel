@@ -31,12 +31,12 @@ _logcontroller(logcontroller)
 void CanBus::setup()
 {
     if (can_driver_install(&can_general_config,&can_timing_config,&can_filter_config) != ESP_OK){
-        _systemstatus.newFlag(SYSTEM_FLAG::ERROR_CAN,"Can iface failed to install!");
+        _systemstatus.new_message(SYSTEM_FLAG::ERROR_CAN,"Can iface failed to install!");
    
         return;
     }
     if (can_start() != ESP_OK){
-        _systemstatus.newFlag(SYSTEM_FLAG::ERROR_CAN,"Can Iface failed to start!");
+        _systemstatus.new_message(SYSTEM_FLAG::ERROR_CAN,"Can Iface failed to start!");
     
         return;
     }
@@ -50,8 +50,8 @@ void CanBus::sendPacket(RnpPacket& data){
         return;
     }
     if (_sendBuffer.size() + 1 > _info.maxSendBufferElements){
-        if (!_systemstatus.flagSet(SYSTEM_FLAG::ERROR_CAN)){
-            _systemstatus.newFlag(SYSTEM_FLAG::ERROR_CAN,"Can Send Buffer Overflow!");
+        if (!_systemstatus.flag_triggered(SYSTEM_FLAG::ERROR_CAN)){
+            _systemstatus.new_message(SYSTEM_FLAG::ERROR_CAN,"Can Send Buffer Overflow!");
         }
         _info.sendBufferOverflow = true;
         return;
@@ -61,8 +61,8 @@ void CanBus::sendPacket(RnpPacket& data){
     data.serialize(serializedPacket);
     _sendBuffer.emplace(send_buffer_element_t{RnpCanIdentifier(data.header,generateCanPacketId()),serializedPacket});
 
-    if (_info.sendBufferOverflow && _systemstatus.flagSetOr(SYSTEM_FLAG::ERROR_CAN)){
-        _systemstatus.deleteFlag(SYSTEM_FLAG::ERROR_CAN,"Can Send Buffer no longer overflowing!");
+    if (_info.sendBufferOverflow && _systemstatus.flag_triggered(SYSTEM_FLAG::ERROR_CAN)){
+        _systemstatus.delete_message(SYSTEM_FLAG::ERROR_CAN,"Can Send Buffer no longer overflowing!");
         _info.sendBufferOverflow = false;
     }
 
@@ -119,8 +119,8 @@ void CanBus::processSendBuffer(){
             return;
         }
         // proper error might be worth throwing here? -> future
-        if (!_systemstatus.flagSetOr(SYSTEM_FLAG::ERROR_CAN)){
-            _systemstatus.newFlag(SYSTEM_FLAG::ERROR_CAN,"Can transmit failed with error code" + std::to_string(err));
+        if (!_systemstatus.flag_triggered(SYSTEM_FLAG::ERROR_CAN)){
+            _systemstatus.new_message(SYSTEM_FLAG::ERROR_CAN,"Can transmit failed with error code" + std::to_string(err));
         }
         return;
     }
@@ -143,8 +143,8 @@ void CanBus::processReceivedPackets(){
     int err = can_receive(&can_packet,0);
     if (err != ESP_OK){
         if (err != ESP_ERR_TIMEOUT){
-            if (!_systemstatus.flagSetOr(SYSTEM_FLAG::ERROR_CAN)){
-                _systemstatus.newFlag(SYSTEM_FLAG::ERROR_CAN,"Can Receive failed with error code" + std::to_string(err));
+            if (!_systemstatus.flag_triggered(SYSTEM_FLAG::ERROR_CAN)){
+                _systemstatus.new_message(SYSTEM_FLAG::ERROR_CAN,"Can Receive failed with error code" + std::to_string(err));
             }
         }
         return;
@@ -183,8 +183,8 @@ void CanBus::processReceivedPackets(){
         //check if receiveBuffer has space to push back to
         if (_receiveBuffer.size() == _info.maxReceiveBufferElements){
             _info.receiveBufferOverflow = true;
-            if (!_systemstatus.flagSetOr(SYSTEM_FLAG::ERROR_CAN)){
-                _systemstatus.newFlag(SYSTEM_FLAG::ERROR_CAN,"Can Receive Buffer Overflow" + std::to_string(err));
+            if (!_systemstatus.flag_triggered(SYSTEM_FLAG::ERROR_CAN)){
+                _systemstatus.new_message(SYSTEM_FLAG::ERROR_CAN,"Can Receive Buffer Overflow" + std::to_string(err));
             }
             return;
         }
@@ -195,8 +195,8 @@ void CanBus::processReceivedPackets(){
                                 0,
                                 millis()});
 
-        if (_info.receiveBufferOverflow && _systemstatus.flagSetOr(SYSTEM_FLAG::ERROR_CAN)){
-            _systemstatus.deleteFlag(SYSTEM_FLAG::ERROR_CAN,"Can Receive Buffer no longer overflowing!");
+        if (_info.receiveBufferOverflow && _systemstatus.flag_triggered(SYSTEM_FLAG::ERROR_CAN)){
+            _systemstatus.delete_message(SYSTEM_FLAG::ERROR_CAN,"Can Receive Buffer no longer overflowing!");
             _info.receiveBufferOverflow = false;
         }
         
