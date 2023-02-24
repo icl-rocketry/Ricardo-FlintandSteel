@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name "CP2102")(type "KiCad")(uri "${KIPRJMOD}/CP2102/CP2102.kicad_sym")(options "")(descr ""))
-  (lib (name "New_Library")(type "KiCad")(uri "D:/Imperial College London Rocketry Electronics & Payload/ICLR library/fp/iclr.pretty/New_Library.kicad_sym")(options "")(descr ""))
-  (lib (name "iclr")(type "KiCad")(uri "D:/Imperial College London Rocketry Electronics & Payload/ICLR library/syms/iclr.kicad_sym")(options "")(descr ""))
-)
