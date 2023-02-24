@@ -1,6 +1,6 @@
-[submodule "Ematch_board/Software/lib/librnp"]
-	path = Ematch_board/Software/lib/librnp
-	url = git@github.com:icl-rocketry/librnp.git
-[submodule "Ematch_board/Software/lib/librrc"]
-	path = Ematch_board/Software/lib/librrc
-	url = git@github.com:icl-rocketry/librrc.git
+[submodule "Software/lib/librrc"]
+	path = Software/lib/librrc
+	url = https://github.com/icl-rocketry/librrc.git
+[submodule "Software/lib/librnp"]
+	path = Software/lib/librnp
+	url = https://github.com/icl-rocketry/librnp.git
