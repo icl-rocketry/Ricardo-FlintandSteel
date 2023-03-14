@@ -927,7 +927,7 @@
     (property "Value" "LM66200DRLR" (at 63.5 33.1779 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOTFL50P160X60-8N" (at 76.2 34.29 0)
+    (property "Footprint" "iclr:SOTFL50P160X60-8N" (at 76.2 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/gpn/lm66200" (at 76.2 36.83 0)
