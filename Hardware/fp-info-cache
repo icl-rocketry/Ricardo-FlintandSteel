@@ -1,4 +1,4 @@
-21697964640071268
+21701322290570322
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54604,8 +54604,8 @@ MGAH1004R68M-10
 
 
 0
-0
-0
+2
+2
 ICLR
 MIT_logo
 
@@ -54620,6 +54620,13 @@ MOLEX_78646-3001
 0
 14
 14
+ICLR
+Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal_No_Mounting_Holes
+Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-06A2, example for new mpn: 39-30-0060, 3 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf), generated with kicad-footprint-generator
+connector Molex Mini-Fit_Jr top entryplastic_peg
+0
+6
+6
 ICLR
 PHOENIX_1757242
 
@@ -90290,8 +90297,8 @@ MGAH1004R68M-10
 
 
 0
-0
-0
+2
+2
 iclr
 MIT_logo
 
@@ -90306,6 +90313,13 @@ MOLEX_78646-3001
 0
 14
 14
+iclr
+Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal_No_Mounting_Holes
+Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-06A2, example for new mpn: 39-30-0060, 3 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf), generated with kicad-footprint-generator
+connector Molex Mini-Fit_Jr top entryplastic_peg
+0
+6
+6
 iclr
 PHOENIX_1757242
 
