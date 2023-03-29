@@ -1572,7 +1572,7 @@
     )
   )
 
-  (symbol (lib_id "Isolator:LTV-247") (at 243.84 129.54 0) (mirror y) (unit 1)
+  (symbol (lib_id "Isolator:LTV-247") (at 243.84 129.54 0) (mirror y) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2262f710-a041-4baa-9304-7b4dfe1becf8)
     (property "Reference" "U6" (at 243.84 122.0302 0)
@@ -1606,7 +1606,7 @@
     (instances
       (project "flintandsteel"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-          (reference "U6") (unit 1)
+          (reference "U6") (unit 4)
         )
       )
     )
@@ -2132,7 +2132,7 @@
     )
   )
 
-  (symbol (lib_id "Isolator:LTV-247") (at 96.52 50.8 0) (mirror y) (unit 2)
+  (symbol (lib_id "Isolator:LTV-247") (at 96.52 50.8 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86b0276b-458a-4dd3-a2a7-b60eca63bfba)
     (property "Reference" "U6" (at 96.52 43.18 0)
@@ -2166,7 +2166,7 @@
     (instances
       (project "flintandsteel"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-          (reference "U6") (unit 2)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -2250,7 +2250,7 @@
     )
   )
 
-  (symbol (lib_id "Isolator:LTV-247") (at 96.52 129.54 0) (mirror y) (unit 4)
+  (symbol (lib_id "Isolator:LTV-247") (at 96.52 129.54 0) (mirror y) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9989f674-aa94-46b3-b32a-d16715030a8a)
     (property "Reference" "U6" (at 96.52 122.0302 0)
@@ -2284,7 +2284,7 @@
     (instances
       (project "flintandsteel"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-          (reference "U6") (unit 4)
+          (reference "U6") (unit 2)
         )
       )
     )
