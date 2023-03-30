@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.127
         }
       },
       "diff_pair_dimensions": [
@@ -140,8 +140,8 @@
       "teardrop_options": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
-          "td_on_pad_in_zone": false,
+          "td_curve_segcount": 10,
+          "td_on_pad_in_zone": true,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
           "td_ontrackend": false,
@@ -182,6 +182,7 @@
         0.0,
         0.2,
         0.22,
+        0.261112,
         0.351214,
         0.4,
         0.8
@@ -474,7 +475,7 @@
       "idf": "",
       "netlist": "Mainboard_2022.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3D/flintandsteel.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
