@@ -139,12 +139,12 @@
       },
       "teardrop_options": [
         {
-          "td_allow_use_two_tracks": true,
+          "td_allow_use_two_tracks": false,
           "td_curve_segcount": 10,
           "td_on_pad_in_zone": true,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onviapad": true
         }
       ],
@@ -471,12 +471,12 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
-      "idf": "",
+      "gencad": "flintandsteel.cad",
+      "idf": "flintandsteel.emn",
       "netlist": "Mainboard_2022.net",
-      "specctra_dsn": "",
+      "specctra_dsn": "flintandsteel.dsn",
       "step": "3D/flintandsteel.step",
-      "vrml": ""
+      "vrml": "flintandsteel.wrl"
     },
     "page_layout_descr_file": ""
   },
