@@ -1,4 +1,4 @@
-21701322290570322
+21708099529468224
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54551,7 +54551,21 @@ Inductor
 2
 2
 ICLR
+IND_ETQP5M3R3YFC
+
+
+0
+2
+2
+ICLR
 IND_ETQP5M330YFM
+
+
+0
+2
+2
+ICLR
+IND_SPM10065VT-3R3M-D
 
 
 0
@@ -90244,7 +90258,21 @@ Inductor
 2
 2
 iclr
+IND_ETQP5M3R3YFC
+
+
+0
+2
+2
+iclr
 IND_ETQP5M330YFM
+
+
+0
+2
+2
+iclr
+IND_SPM10065VT-3R3M-D
 
 
 0
