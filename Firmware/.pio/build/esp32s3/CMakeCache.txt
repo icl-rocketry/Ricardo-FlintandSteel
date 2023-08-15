@@ -236,7 +236,7 @@ ENABLE_TESTING:BOOL=
 ENABLE_ZLIB_SUPPORT:BOOL=OFF
 
 //No help, variable specified on the command line.
-EXTRA_COMPONENT_DIRS:PATH=C:/ICLR/Ricardo-FlintandSteel/Firmware/src
+EXTRA_COMPONENT_DIRS:PATH=c:/ICLR/Ricardo-FlintandSteel/Firmware/src
 
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
@@ -272,7 +272,7 @@ RicardoOSTemplate_BINARY_DIR:STATIC=C:/ICLR/Ricardo-FlintandSteel/Firmware/.pio/
 RicardoOSTemplate_SOURCE_DIR:STATIC=C:/ICLR/Ricardo-FlintandSteel/Firmware
 
 //No help, variable specified on the command line.
-SDKCONFIG:UNINITIALIZED=C:\ICLR\Ricardo-FlintandSteel\Firmware\sdkconfig.esp32s3
+SDKCONFIG:UNINITIALIZED=c:\ICLR\Ricardo-FlintandSteel\Firmware\sdkconfig.esp32s3
 
 //Allow unsafe builds. These builds ARE NOT SECURE.
 UNSAFE_BUILD:BOOL=OFF

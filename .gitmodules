@@ -16,3 +16,6 @@
 [submodule "Firmware/components"]
 	path = Firmware/components
 	url = https://github.com/icl-rocketry/librrc.git
+[submodule "Firmware/components/arduino"]
+	path = Firmware/components/arduino
+	url = https://github.com/espressif/arduino-esp32.git

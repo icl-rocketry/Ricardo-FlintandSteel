@@ -251,7 +251,7 @@ PYTHON:UNINITIALIZED=C:\Users\padur\.platformio\penv\.espidf-4.4.5\Scripts\pytho
 PYTHON_DEPS_CHECKED:UNINITIALIZED=1
 
 //No help, variable specified on the command line.
-SDKCONFIG:UNINITIALIZED=C:\ICLR\Ricardo-FlintandSteel\Firmware\sdkconfig.esp32s3
+SDKCONFIG:UNINITIALIZED=c:\ICLR\Ricardo-FlintandSteel\Firmware\sdkconfig.esp32s3
 
 //Dependencies for the target
 __idf_bootloader_support_LIB_DEPENDS:STATIC=general;__idf_log;general;__idf_esp_rom;general;__idf_esp_common;general;__idf_esp_hw_support;general;__idf_hal;general;__idf_esp32s3;

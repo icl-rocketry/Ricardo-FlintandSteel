@@ -1,6 +1,7 @@
 #pragma once
 
 #include <libriccore/riccoresystem.h>
+#include <libriccore/networkinterfaces/can/canbus.h>
 #include <librrc/nrcremotepyro.h>
 
 #include "Config/systemflags_config.h"
@@ -21,12 +22,14 @@ class System : public RicCoreSystem<System,SYSTEM_FLAG,Commands::ID>
 
         void systemUpdate();
 
+        CanBus<SYSTEM_FLAG> canbus;
+
         NRCRemotePyro pyro0;
         NRCRemotePyro pyro1;
         NRCRemotePyro pyro2;
         NRCRemotePyro pyro3;
 
-    // private:
+    //private:
 
 
 };
