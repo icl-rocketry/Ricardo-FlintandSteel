@@ -37,14 +37,14 @@ void System::systemSetup(){
 
     //initialize statemachine with idle state
     statemachine.initalize(std::make_unique<Idle>(systemstatus,commandhandler));
-
+    
+    //any other setup goes here
     canbus.setup();
     networkmanager.addInterface(&canbus);
 
     networkmanager.setNodeType(NODETYPE::HUB);
     networkmanager.setNoRouteAction(NOROUTE_ACTION::BROADCAST,{1,3});
-    
-    //any other setup goes here
+
     pyro0.setup();
     pyro1.setup();
     pyro2.setup();
