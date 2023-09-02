@@ -32,3 +32,8 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "TRUE")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/esp-idf/libriccore/src/cmake_install.cmake")
+endif()
+

@@ -50,10 +50,10 @@ void System::systemSetup(){
     pyro2.setup();
     pyro3.setup();
 
-    uint8_t pyroservice0 = (uint8_t) Services::ID::Pyro0;
-    uint8_t pyroservice1 = (uint8_t) Services::ID::Pyro1;
-    uint8_t pyroservice2 = (uint8_t) Services::ID::Pyro2;
-    uint8_t pyroservice3 = (uint8_t) Services::ID::Pyro3;
+    uint8_t pyroservice0 = static_cast<uint8_t>(Services::ID::Pyro0);
+    uint8_t pyroservice1 = static_cast<uint8_t>(Services::ID::Pyro1);
+    uint8_t pyroservice2 = static_cast<uint8_t>(Services::ID::Pyro2);
+    uint8_t pyroservice3 = static_cast<uint8_t>(Services::ID::Pyro3);
 
     networkmanager.registerService(pyroservice0,pyro0.getThisNetworkCallback());
     networkmanager.registerService(pyroservice1,pyro1.getThisNetworkCallback());
