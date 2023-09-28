@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/padur/.platformio/packages/framework-espidf/components/esp_hid
+# Install script for directory: /home/andrei/.platformio/packages/framework-espidf/components/esp_hid
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/RicardoOSTemplate")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

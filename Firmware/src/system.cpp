@@ -10,7 +10,7 @@
 #include "Config/commands_config.h"
 #include "Config/pinmap_config.h"
 #include "Config/general_config.h"
-#include "config/services_config.h"
+#include "Config/services_config.h"
 
 #include "Commands/commands.h"
 

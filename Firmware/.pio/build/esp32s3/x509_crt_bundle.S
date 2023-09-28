@@ -1,4 +1,4 @@
-/* * Data converted from c:\ICLR\Ricardo-FlintandSteel\Firmware\.pio\build\esp32s3\x509_crt_bundle
+/* * Data converted from /home/andrei/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/x509_crt_bundle
  */
 .data
 .section .rodata.embedded
