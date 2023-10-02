@@ -1,4 +1,4 @@
-# Install script for directory: /home/andrei/ICLR/Ricardo-FlintandSteel/Firmware/components/librrc
+# Install script for directory: /Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/components/librrc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/andrei/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/esp-idf/librrc/src/cmake_install.cmake")
+  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/esp-idf/librrc/src/cmake_install.cmake")
 endif()
 

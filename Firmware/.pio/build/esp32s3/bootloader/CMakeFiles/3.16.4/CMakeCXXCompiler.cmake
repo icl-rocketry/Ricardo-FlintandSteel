@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "/home/andrei/.platformio/packages/toolchain-xtensa-esp32s3/bin/xtensa-esp32s3-elf-g++")
+set(CMAKE_CXX_COMPILER "/Users/kiran/.platformio/packages/toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5/bin/xtensa-esp32s3-elf-g++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "8.4.0")
@@ -19,11 +19,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/home/andrei/.platformio/packages/toolchain-xtensa-esp32s3/bin/xtensa-esp32s3-elf-ar")
-set(CMAKE_CXX_COMPILER_AR "/home/andrei/.platformio/packages/toolchain-xtensa-esp32s3/bin/xtensa-esp32s3-elf-gcc-ar")
-set(CMAKE_RANLIB "/home/andrei/.platformio/packages/toolchain-xtensa-esp32s3/bin/xtensa-esp32s3-elf-ranlib")
-set(CMAKE_CXX_COMPILER_RANLIB "/home/andrei/.platformio/packages/toolchain-xtensa-esp32s3/bin/xtensa-esp32s3-elf-gcc-ranlib")
-set(CMAKE_LINKER "/home/andrei/.platformio/packages/toolchain-xtensa-esp32s3/bin/xtensa-esp32s3-elf-ld")
+set(CMAKE_AR "/Users/kiran/.platformio/packages/toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5/bin/xtensa-esp32s3-elf-ar")
+set(CMAKE_CXX_COMPILER_AR "/Users/kiran/.platformio/packages/toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5/bin/xtensa-esp32s3-elf-gcc-ar")
+set(CMAKE_RANLIB "/Users/kiran/.platformio/packages/toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5/bin/xtensa-esp32s3-elf-ranlib")
+set(CMAKE_CXX_COMPILER_RANLIB "/Users/kiran/.platformio/packages/toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5/bin/xtensa-esp32s3-elf-gcc-ranlib")
+set(CMAKE_LINKER "/Users/kiran/.platformio/packages/toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5/bin/xtensa-esp32s3-elf-ld")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -82,7 +82,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/home/andrei/.platformio/packages/toolchain-xtensa-esp32s3/xtensa-esp32s3-elf/include/c++/8.4.0;/home/andrei/.platformio/packages/toolchain-xtensa-esp32s3/xtensa-esp32s3-elf/include/c++/8.4.0/xtensa-esp32s3-elf;/home/andrei/.platformio/packages/toolchain-xtensa-esp32s3/xtensa-esp32s3-elf/include/c++/8.4.0/backward;/home/andrei/.platformio/packages/toolchain-xtensa-esp32s3/lib/gcc/xtensa-esp32s3-elf/8.4.0/include;/home/andrei/.platformio/packages/toolchain-xtensa-esp32s3/lib/gcc/xtensa-esp32s3-elf/8.4.0/include-fixed;/home/andrei/.platformio/packages/toolchain-xtensa-esp32s3/xtensa-esp32s3-elf/sys-include;/home/andrei/.platformio/packages/toolchain-xtensa-esp32s3/xtensa-esp32s3-elf/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/Users/kiran/.platformio/packages/toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5/xtensa-esp32s3-elf/include/c++/8.4.0;/Users/kiran/.platformio/packages/toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5/xtensa-esp32s3-elf/include/c++/8.4.0/xtensa-esp32s3-elf;/Users/kiran/.platformio/packages/toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5/xtensa-esp32s3-elf/include/c++/8.4.0/backward;/Users/kiran/.platformio/packages/toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5/lib/gcc/xtensa-esp32s3-elf/8.4.0/include;/Users/kiran/.platformio/packages/toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5/lib/gcc/xtensa-esp32s3-elf/8.4.0/include-fixed;/Users/kiran/.platformio/packages/toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5/xtensa-esp32s3-elf/sys-include;/Users/kiran/.platformio/packages/toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5/xtensa-esp32s3-elf/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc;c;nosys;c;gcc")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/home/andrei/.platformio/packages/toolchain-xtensa-esp32s3/lib/gcc/xtensa-esp32s3-elf/8.4.0;/home/andrei/.platformio/packages/toolchain-xtensa-esp32s3/lib/gcc;/home/andrei/.platformio/packages/toolchain-xtensa-esp32s3/xtensa-esp32s3-elf/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/Users/kiran/.platformio/packages/toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5/lib/gcc/xtensa-esp32s3-elf/8.4.0;/Users/kiran/.platformio/packages/toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5/lib/gcc;/Users/kiran/.platformio/packages/toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5/xtensa-esp32s3-elf/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
