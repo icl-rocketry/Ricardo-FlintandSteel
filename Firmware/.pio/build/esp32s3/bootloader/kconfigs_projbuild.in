@@ -1,4 +1,4 @@
-source "/home/andrei/.platformio/packages/framework-espidf/components/bootloader/Kconfig.projbuild"
-source "/home/andrei/.platformio/packages/framework-espidf/components/esp_rom/Kconfig.projbuild"
-source "/home/andrei/.platformio/packages/framework-espidf/components/esptool_py/Kconfig.projbuild"
-source "/home/andrei/.platformio/packages/framework-espidf/components/partition_table/Kconfig.projbuild"
+source "/Users/kiran/.platformio/packages/framework-espidf/components/bootloader/Kconfig.projbuild"
+source "/Users/kiran/.platformio/packages/framework-espidf/components/esp_rom/Kconfig.projbuild"
+source "/Users/kiran/.platformio/packages/framework-espidf/components/esptool_py/Kconfig.projbuild"
+source "/Users/kiran/.platformio/packages/framework-espidf/components/partition_table/Kconfig.projbuild"

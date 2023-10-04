@@ -1,4 +1,4 @@
-# Install script for directory: /home/andrei/ICLR/Ricardo-FlintandSteel/Firmware/components/arduino
+# Install script for directory: /Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/components/arduino
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

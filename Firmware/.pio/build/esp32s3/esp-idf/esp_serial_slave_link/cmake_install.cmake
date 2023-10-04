@@ -1,4 +1,4 @@
-# Install script for directory: /home/andrei/.platformio/packages/framework-espidf/components/esp_serial_slave_link
+# Install script for directory: /Users/kiran/.platformio/packages/framework-espidf/components/esp_serial_slave_link
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

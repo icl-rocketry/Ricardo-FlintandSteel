@@ -1,4 +1,4 @@
-# Install script for directory: /home/andrei/.platformio/packages/framework-espidf/components/bootloader/subproject
+# Install script for directory: /Users/kiran/.platformio/packages/framework-espidf/components/bootloader/subproject
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/andrei/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/cmake_install.cmake")
+  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/andrei/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
