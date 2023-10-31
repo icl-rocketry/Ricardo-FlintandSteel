@@ -11,6 +11,8 @@
 
 #include "commands.h"
 
+#include "packets/FlintTelemPacket.h"
+
 #include <librnp/rnp_packet.h>
 #include <libriccore/commands/commandhandler.h>
 
@@ -19,8 +21,7 @@
 
 void Commands::FreeRamCommand(System& sm, const RnpPacketSerialized& packet)
 {	
-		// ESP_LOGI("ch", "%s", "deserialize");
-
+	
 	SimpleCommandPacket commandpacket(packet);
 
 	uint32_t freeram = esp_get_free_heap_size();
@@ -51,3 +52,24 @@ void Commands::FreeRamCommand(System& sm, const RnpPacketSerialized& packet)
 	}
 	
 }
+
+// void Commands::FlintTelemCommand(System& sm, const RnpPacketSerialized& packet)
+// {	
+// 	SimpleCommandPacket commandpacket(packet);
+
+// 	FlintTelemPacket flinttelem;
+
+// 	flinttelem.header.type = static_cast<uint8_t>(110);
+// 	flinttelem.header.source = sm.networkmanager.getAddress();
+// 	flinttelem.header.source_service = sm.commandhandler.getServiceID();
+// 	flinttelem.header.destination = commandpacket.header.source;
+// 	flinttelem.header.destination_service = commandpacket.header.source_service;
+// 	flinttelem.header.uid = commandpacket.header.uid; 
+// 	flinttelem.current = sm.curr_sensor.getCurrent();
+// 	flinttelem.busVoltage = sm.curr_sensor.getBusV();
+// 	flinttelem.system_status = sm.systemstatus.getStatus();
+// 	flinttelem.system_time = millis();
+	
+// 	sm.networkmanager.sendPacket(flinttelem);
+	
+// }

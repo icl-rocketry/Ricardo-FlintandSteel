@@ -23,7 +23,9 @@ canbus(systemstatus, PinMap::TxCan, PinMap::RxCan, 3),
 pyro0(PinMap::Nuke1,PinMap::Cont1,networkmanager),
 pyro1(PinMap::Nuke2,PinMap::Cont2,networkmanager),
 pyro2(PinMap::Nuke3,PinMap::Cont3,networkmanager),
-pyro3(PinMap::Nuke4,PinMap::Cont4,networkmanager)
+pyro3(PinMap::Nuke4,PinMap::Cont4,networkmanager),
+I2C(0)
+// curr_sensor(0b10000000, I2C)
 {};
 
 
@@ -50,6 +52,10 @@ void System::systemSetup(){
     pyro2.setup();
     pyro3.setup();
 
+    I2C.begin(PinMap::SDA, PinMap::SCL, GeneralConfig::I2C_FREQUENCY);
+
+    // curr_sensor.setup(GeneralConfig::sense_resistance, GeneralConfig::maxExpectedCurrent);
+
     uint8_t pyroservice0 = static_cast<uint8_t>(Services::ID::Pyro0);
     uint8_t pyroservice1 = static_cast<uint8_t>(Services::ID::Pyro1);
     uint8_t pyroservice2 = static_cast<uint8_t>(Services::ID::Pyro2);
@@ -61,4 +67,6 @@ void System::systemSetup(){
     networkmanager.registerService(pyroservice3,pyro3.getThisNetworkCallback());
 };
 
-void System::systemUpdate(){};
+void System::systemUpdate(){
+    // curr_sensor.update();
+};

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kiran/.platformio/packages/framework-espidf/components/esp_hw_support/port/esp32s3
+# Install script for directory: /Users/andrei/.platformio/packages/framework-espidf/components/esp_hw_support/port/esp32s3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

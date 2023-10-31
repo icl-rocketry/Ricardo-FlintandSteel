@@ -18,4 +18,6 @@ namespace Commands{
     
     void FreeRamCommand(ForwardDecl_SystemClass& system, const RnpPacketSerialized& packet);
 
+    // void FlintTelemCommand(ForwardDecl_SystemClass& system, const RnpPacketSerialized& packet);
+
 }
