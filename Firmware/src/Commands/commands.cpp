@@ -53,23 +53,23 @@ void Commands::FreeRamCommand(System& sm, const RnpPacketSerialized& packet)
 	
 }
 
-// void Commands::FlintTelemCommand(System& sm, const RnpPacketSerialized& packet)
-// {	
-// 	SimpleCommandPacket commandpacket(packet);
+void Commands::FlintTelemCommand(System& sm, const RnpPacketSerialized& packet)
+{	
+	SimpleCommandPacket commandpacket(packet);
 
-// 	FlintTelemPacket flinttelem;
+	FlintTelemPacket flinttelem;
 
-// 	flinttelem.header.type = static_cast<uint8_t>(110);
-// 	flinttelem.header.source = sm.networkmanager.getAddress();
-// 	flinttelem.header.source_service = sm.commandhandler.getServiceID();
-// 	flinttelem.header.destination = commandpacket.header.source;
-// 	flinttelem.header.destination_service = commandpacket.header.source_service;
-// 	flinttelem.header.uid = commandpacket.header.uid; 
-// 	flinttelem.current = sm.curr_sensor.getCurrent();
-// 	flinttelem.busVoltage = sm.curr_sensor.getBusV();
-// 	flinttelem.system_status = sm.systemstatus.getStatus();
-// 	flinttelem.system_time = millis();
+	flinttelem.header.type = static_cast<uint8_t>(110);
+	flinttelem.header.source = sm.networkmanager.getAddress();
+	flinttelem.header.source_service = sm.commandhandler.getServiceID();
+	flinttelem.header.destination = commandpacket.header.source;
+	flinttelem.header.destination_service = commandpacket.header.source_service;
+	flinttelem.header.uid = commandpacket.header.uid; 
+	flinttelem.current = sm.curr_sensor.getCurrent();
+	flinttelem.busVoltage = sm.curr_sensor.getBusV();
+	flinttelem.system_status = sm.systemstatus.getStatus();
+	flinttelem.system_time = millis();
 	
-// 	sm.networkmanager.sendPacket(flinttelem);
+	sm.networkmanager.sendPacket(flinttelem);
 	
-// }
+}

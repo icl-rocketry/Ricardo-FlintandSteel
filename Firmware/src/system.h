@@ -33,7 +33,7 @@ class System : public RicCoreSystem<System,SYSTEM_FLAG,Commands::ID>
         NRCRemotePyro pyro3;
 
         TwoWire I2C;
-        // INA219 curr_sensor;
+        INA219 curr_sensor;
 
     //private:
 

@@ -8,7 +8,8 @@ class INA219
 public: 
     INA219(uint8_t I2Caddr, TwoWire &I2CObj):
     _deviceAddr(I2Caddr),
-    _wire(I2CObj){};
+    _wire(I2CObj)
+    {};
     
     // register addresses
     enum class Registers : uint8_t
@@ -73,6 +74,9 @@ public:
 
     void setPollDelta(uint32_t polldelta){_pollDelta = polldelta;};
 
+    int16_t calibreg;
+    int16_t configreg;
+
 private:
 
     //  methods
@@ -86,6 +90,7 @@ private:
     void setShuntVADC(INA219::ADCSettings ADCsetting);
     void setBusVADC(INA219::ADCSettings ADCsetting);
     void setMode(INA219::Modes Mode);
+    void reset();
 
     // shadow registers, initialised to default value
     uint16_t _configReg = 0x399F;
@@ -97,6 +102,7 @@ private:
     static constexpr uint16_t busADCMask = 0b1111100001111111;
     static constexpr uint16_t shuntADCMask = 0b1111111110000111;
     static constexpr uint16_t modeMask = 0b1111111111111000;
+    static constexpr uint16_t resetMask = 0b0111111111111111;
 
     static constexpr uint16_t signmask16bit = 0b1000000000000000;
 
@@ -119,6 +125,5 @@ private:
     //timing
     uint32_t _prevUpdate = 0;
     uint32_t _pollDelta = 50;
-
     
 };
