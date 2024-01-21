@@ -20,10 +20,10 @@
 System::System():
 RicCoreSystem(Commands::command_map,Commands::defaultEnabledCommands,Serial),
 canbus(systemstatus, PinMap::TxCan, PinMap::RxCan, 3),
-pyro0(PinMap::Nuke1,PinMap::Cont1,networkmanager),
-pyro1(PinMap::Nuke2,PinMap::Cont2,networkmanager),
-pyro2(PinMap::Nuke3,PinMap::Cont3,networkmanager),
-pyro3(PinMap::Nuke4,PinMap::Cont4,networkmanager),
+pyro0(ArduinoGpio(PinMap::Nuke1),ArduinoGpio(PinMap::Cont1),networkmanager),
+pyro1(ArduinoGpio(PinMap::Nuke2),ArduinoGpio(PinMap::Cont2),networkmanager),
+pyro2(ArduinoGpio(PinMap::Nuke3),ArduinoGpio(PinMap::Cont3),networkmanager),
+pyro3(ArduinoGpio(PinMap::Nuke4),ArduinoGpio(PinMap::Cont4),networkmanager),
 I2C(0),
 curr_sensor(0b1000000, I2C)
 {};

@@ -1,7 +1,7 @@
 #pragma once
 
 #include <libriccore/riccoresystem.h>
-#include <librrc/nrcremotepyro.h>
+#include <librrc/Remote/nrcremotepyro.h>
 #include <Wire.h>
 
 #include "Config/systemflags_config.h"
@@ -27,10 +27,10 @@ class System : public RicCoreSystem<System,SYSTEM_FLAG,Commands::ID>
 
         CanBus<SYSTEM_FLAG> canbus;
 
-        NRCRemotePyro pyro0;
-        NRCRemotePyro pyro1;
-        NRCRemotePyro pyro2;
-        NRCRemotePyro pyro3;
+        NRCRemotePyro<ArduinoGpio> pyro0;
+        NRCRemotePyro<ArduinoGpio> pyro1;
+        NRCRemotePyro<ArduinoGpio> pyro2;
+        NRCRemotePyro<ArduinoGpio> pyro3;
 
         TwoWire I2C;
         INA219 curr_sensor;
