@@ -21,9 +21,9 @@ namespace Services{
     enum class ID:uint8_t{
         Serivce1 = 3,
         Pyro0 = 10,
-        Pyro1 = 11,
-        Pyro2 = 12,
-        Pyro3 = 13
+        Solenoid0 = 11,
+        Solenoid1 = 12,
+        Solenoid2 = 13
     };
 
 };
