@@ -3492,6 +3492,12 @@
 		(color 0 0 0 0)
 		(uuid "f130ddb0-0916-407d-9728-6ff1a5a57806")
 	)
+	(junction
+		(at 58.42 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa051397-73fb-4f49-b06a-cbec49b79554")
+	)
 	(no_connect
 		(at 69.85 100.33)
 		(uuid "036655a5-7f04-4763-be9c-deb36fc593d5")
@@ -3603,6 +3609,16 @@
 	(no_connect
 		(at 69.85 125.73)
 		(uuid "f63fe6de-d87c-4ea7-b025-048a0aee0fd7")
+	)
+	(wire
+		(pts
+			(xy 67.31 24.13) (xy 66.04 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b1b35b-7223-4dbd-839e-c6df83988b72")
 	)
 	(wire
 		(pts
@@ -4216,6 +4232,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 24.13) (xy 60.96 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff4c398-887f-426b-886b-7c068c9e7d58")
+	)
+	(wire
+		(pts
 			(xy 22.86 170.18) (xy 16.51 170.18)
 		)
 		(stroke
@@ -4296,6 +4322,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 24.13) (xy 58.42 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c638d28-cda2-4a7b-931c-925b2345b9c7")
+	)
+	(wire
+		(pts
 			(xy 213.36 143.51) (xy 220.98 143.51)
 		)
 		(stroke
@@ -4343,6 +4379,16 @@
 			(type default)
 		)
 		(uuid "86e98417-f5e4-48ba-8147-ef66cc03dde6")
+	)
+	(wire
+		(pts
+			(xy 74.93 24.13) (xy 72.39 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87da56d2-ebd3-4586-8450-f83326d4fd66")
 	)
 	(wire
 		(pts
@@ -4536,7 +4582,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 21.59) (xy 58.42 38.1)
+			(xy 58.42 21.59) (xy 58.42 24.13)
 		)
 		(stroke
 			(width 0)
@@ -5187,7 +5233,7 @@
 		)
 		(uuid "06b48007-98bb-4875-a965-b841837ea395")
 	)
-	(label "Nuke 2"
+	(label "Nuke 1"
 		(at 213.36 125.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5209,7 +5255,7 @@
 		)
 		(uuid "08f608f6-98e4-48bb-9b81-ce7e2d61a1bc")
 	)
-	(label "Nuke 4"
+	(label "Nuke 3"
 		(at 144.78 74.93 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5220,7 +5266,7 @@
 		)
 		(uuid "0d1a75bf-3fe5-4826-97d0-d2c4e8bfc8df")
 	)
-	(label "Cont 1"
+	(label "Cont 0"
 		(at 213.36 143.51 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5231,7 +5277,7 @@
 		)
 		(uuid "1462d830-b5bd-43d1-af4c-fde8c8963f2f")
 	)
-	(label "Cont 2"
+	(label "Cont 1"
 		(at 213.36 148.59 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5275,7 +5321,7 @@
 		)
 		(uuid "23d670a6-2050-4add-a75a-c864dab7001b")
 	)
-	(label "Nuke 3"
+	(label "Nuke 2"
 		(at 213.36 130.81 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5308,7 +5354,7 @@
 		)
 		(uuid "2af1f082-a4b1-481a-97ad-27b4ccdbb9c9")
 	)
-	(label "Nuke 1"
+	(label "Nuke 0"
 		(at 144.78 100.33 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5319,7 +5365,7 @@
 		)
 		(uuid "2b656afe-6d5a-4636-90dc-443e83ec4063")
 	)
-	(label "Cont 4"
+	(label "Cont 0"
 		(at 144.78 105.41 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5352,7 +5398,7 @@
 		)
 		(uuid "2ecda4f5-3a8e-46b0-9cfc-fd08f9274437")
 	)
-	(label "Cont 4"
+	(label "Cont 3"
 		(at 213.36 158.75 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5363,7 +5409,7 @@
 		)
 		(uuid "2f62228a-be3e-47c0-a704-686c87b25a9f")
 	)
-	(label "Nuke 2"
+	(label "Nuke 1"
 		(at 144.78 97.79 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5484,7 +5530,7 @@
 		)
 		(uuid "5e7c3a32-8dda-4e6a-9838-c94d1f165575")
 	)
-	(label "Nuke 4"
+	(label "Nuke 3"
 		(at 213.36 135.89 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5506,7 +5552,7 @@
 		)
 		(uuid "5f38138b-2d7e-4386-803c-c107d4c34fbd")
 	)
-	(label "Nuke 1"
+	(label "Nuke 0"
 		(at 213.36 120.65 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5561,7 +5607,7 @@
 		)
 		(uuid "8cb2cd3a-4ef9-4ae5-b6bc-2b1d16f657d6")
 	)
-	(label "Nuke 3"
+	(label "Nuke 2"
 		(at 144.78 95.25 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5638,7 +5684,7 @@
 		)
 		(uuid "aad5b0e9-86a8-455c-8220-01548673e374")
 	)
-	(label "Cont 3"
+	(label "Cont 2"
 		(at 213.36 153.67 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5671,6 +5717,17 @@
 		)
 		(uuid "b3824f7d-f222-4b1f-9177-d4059aff065d")
 	)
+	(label "PyroPWR"
+		(at 74.93 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba2d7163-4fbd-423d-9a76-85678f2f3590")
+	)
 	(label "CHIP_PU"
 		(at 59.69 67.31 0)
 		(fields_autoplaced yes)
@@ -5693,7 +5750,7 @@
 		)
 		(uuid "c18bc6f0-c272-4e47-974b-2e12fb3497ce")
 	)
-	(label "Cont 1"
+	(label "Cont 3"
 		(at 144.78 102.87 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5814,7 +5871,7 @@
 		)
 		(uuid "f7447e92-4293-41c4-be3f-69b30aad1f17")
 	)
-	(label "Cont 3"
+	(label "Cont 1"
 		(at 144.78 107.95 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8814,6 +8871,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 63.5 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b4ffe68-abf7-4386-8d56-8520c49f22a3")
+		(property "Reference" "16VLED2"
+			(at 69.85 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORANGE_LED"
+			(at 69.85 30.2514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 63.5 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16acbb88-4a5a-4fe8-86a1-0e2c78a8c3c3")
+		)
+		(pin "2"
+			(uuid "40766863-060b-444e-9655-56a6945b0f6d")
+		)
+		(instances
+			(project "flintandsteel"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
+					(reference "16VLED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 53.34 132.08 0)
 		(unit 1)
@@ -9407,6 +9531,73 @@
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 69.85 24.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acec4efc-aa5e-4369-943b-1e9673d34134")
+		(property "Reference" "R40"
+			(at 69.85 19.1516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k"
+			(at 69.85 21.463 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 69.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73d9158e-4b31-451b-818a-a3e735b37b9b")
+		)
+		(pin "2"
+			(uuid "10ac4406-2187-4dc0-aa18-21d4608e2895")
+		)
+		(instances
+			(project "flintandsteel"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -11307,7 +11498,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Nuke 3" input
+		(pin "Nuke 2" input
 			(at 220.98 130.81 180)
 			(effects
 				(font
@@ -11317,7 +11508,7 @@
 			)
 			(uuid "0ad08eff-4248-488e-8bd7-f28374709bf2")
 		)
-		(pin "Nuke 1" input
+		(pin "Nuke 0" input
 			(at 220.98 120.65 180)
 			(effects
 				(font
@@ -11327,7 +11518,7 @@
 			)
 			(uuid "2230a394-0c1f-4cc3-913c-f04e6ad90d79")
 		)
-		(pin "Nuke 4" input
+		(pin "Nuke 3" input
 			(at 220.98 135.89 180)
 			(effects
 				(font
@@ -11337,7 +11528,7 @@
 			)
 			(uuid "4bb9673f-598f-4c32-bc82-fa6c995ffdb2")
 		)
-		(pin "Nuke 2" input
+		(pin "Nuke 1" input
 			(at 220.98 125.73 180)
 			(effects
 				(font
@@ -11347,7 +11538,7 @@
 			)
 			(uuid "2b9bb818-e71f-477e-8c37-22b795fe785d")
 		)
-		(pin "Cont1" output
+		(pin "Cont0" output
 			(at 220.98 143.51 180)
 			(effects
 				(font
@@ -11367,7 +11558,7 @@
 			)
 			(uuid "d5b98fee-20f2-4f20-b4a7-0f6da76572c7")
 		)
-		(pin "Cont2" output
+		(pin "Cont1" output
 			(at 220.98 148.59 180)
 			(effects
 				(font
@@ -11377,7 +11568,7 @@
 			)
 			(uuid "cbcd94c2-50dd-4fa7-9f01-e68a0f6394e1")
 		)
-		(pin "Cont4" output
+		(pin "Cont3" output
 			(at 220.98 158.75 180)
 			(effects
 				(font
@@ -11387,7 +11578,7 @@
 			)
 			(uuid "a4edfab2-55c1-4c2f-94e5-4cc7fd578801")
 		)
-		(pin "Cont3" output
+		(pin "Cont2" output
 			(at 220.98 153.67 180)
 			(effects
 				(font
