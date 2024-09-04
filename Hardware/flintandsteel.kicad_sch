@@ -7197,7 +7197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal"
+		(property "Footprint" "iclr:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal"
 			(at 123.19 20.32 0)
 			(effects
 				(font
