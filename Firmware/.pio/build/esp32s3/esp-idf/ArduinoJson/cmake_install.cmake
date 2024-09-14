@@ -1,4 +1,4 @@
-# Install script for directory: /Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/components/ArduinoJson
+# Install script for directory: /Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/components/ArduinoJson
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

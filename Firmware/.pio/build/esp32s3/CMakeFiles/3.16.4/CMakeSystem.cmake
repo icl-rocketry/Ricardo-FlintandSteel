@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Darwin-23.4.0")
+set(CMAKE_HOST_SYSTEM "Darwin-22.6.0")
 set(CMAKE_HOST_SYSTEM_NAME "Darwin")
-set(CMAKE_HOST_SYSTEM_VERSION "23.4.0")
+set(CMAKE_HOST_SYSTEM_VERSION "22.6.0")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/Users/andrei/.platformio/packages/framework-espidf/tools/cmake/toolchain-esp32s3.cmake")
+include("/Users/kiran/.platformio/packages/framework-espidf/tools/cmake/toolchain-esp32s3.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")
