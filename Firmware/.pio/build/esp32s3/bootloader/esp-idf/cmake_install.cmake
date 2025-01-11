@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kiran/.platformio/packages/framework-espidf
+# Install script for directory: /Users/andrei/.platformio/packages/framework-espidf@3.50301.0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,26 +33,102 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/newlib/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/hal/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/soc/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/micro-ecc/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/spi_flash/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/bootloader_support/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/efuse/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/esp_system/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/esp_hw_support/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/xtensa/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/esp32s3/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/esp_common/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/esp_rom/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/log/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/esptool_py/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/partition_table/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/bootloader/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/freertos/cmake_install.cmake")
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/main/cmake_install.cmake")
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/xtensa/cmake_install.cmake")
+endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/newlib/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/soc/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/micro-ecc/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/hal/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/spi_flash/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/esp_bootloader_format/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/esp_app_format/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/bootloader_support/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/efuse/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/esp_system/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/esp_hw_support/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/esp_common/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/esp_rom/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/log/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/esptool_py/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/partition_table/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/bootloader/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/freertos/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/bootloader/esp-idf/main/cmake_install.cmake")
 endif()
 

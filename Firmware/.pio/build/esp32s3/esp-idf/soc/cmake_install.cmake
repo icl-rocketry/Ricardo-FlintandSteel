@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kiran/.platformio/packages/framework-espidf/components/soc
+# Install script for directory: /Users/andrei/.platformio/packages/framework-espidf@3.50301.0/components/soc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -30,11 +30,5 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "TRUE")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/esp-idf/soc/esp32s3/cmake_install.cmake")
-
 endif()
 

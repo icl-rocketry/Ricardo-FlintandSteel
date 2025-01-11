@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/components/libriccore
+# Install script for directory: /Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/components/libriccore
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/esp-idf/libriccore/src/cmake_install.cmake")
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/esp-idf/libriccore/src/cmake_install.cmake")
 endif()
 

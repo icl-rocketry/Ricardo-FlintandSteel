@@ -66,8 +66,6 @@ void System::systemSetup(){
     networkmanager.registerService(pyroservice3,pyro3.getThisNetworkCallback());
 };
 
-long prevTime = 0;
-
 void System::systemUpdate(){
 
     curr_sensor.update();
