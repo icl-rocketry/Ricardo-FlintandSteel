@@ -2,6 +2,7 @@
 
 #include <Wire.h>
 #include <cmath>
+#include <libriccore/riccorelogging.h>
 
 class INA219
 {
@@ -105,7 +106,6 @@ private:
     static constexpr uint16_t resetMask = 0b0111111111111111;
 
     static constexpr uint16_t signmask16bit = 0b1000000000000000;
-
     // I2C vars
     uint8_t _deviceAddr;
     TwoWire &_wire;

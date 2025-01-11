@@ -1,4 +1,4 @@
-# Install script for directory: /Users/andrei/.platformio/packages/framework-espidf/components/mbedtls
+# Install script for directory: /Users/kiran/.platformio/packages/framework-espidf/components/mbedtls
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
+  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
 
 endif()
 

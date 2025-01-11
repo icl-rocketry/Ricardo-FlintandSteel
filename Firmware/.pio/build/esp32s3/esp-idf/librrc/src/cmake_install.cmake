@@ -1,4 +1,4 @@
-# Install script for directory: /Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/components/librrc/src
+# Install script for directory: /Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/components/librrc/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

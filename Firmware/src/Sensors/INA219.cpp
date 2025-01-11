@@ -11,35 +11,35 @@ void INA219::update()
         {
             currentReg |= signmask16bit;
         }
-        _current = _currentLSB * (float)currentReg;
 
+        //!TODO there is a constant current offset which depends on the bus voltage - compensation needs to be added for this.
+        _current = static_cast<float>(_currentLSB * currentReg);
 
-        _busV = busVLSB * (float)(readRegister(INA219::Registers::BusV) >> 3);
+        uint16_t busVReg = readRegister(INA219::Registers::BusV);
+        _busV = static_cast<float>(busVLSB * (busVReg >> 3));
         _prevUpdate = millis();
     }
+
+    
 
 }
 
 void INA219::setup(float resistance, float maxCurrent, INA219::PGAGain Gain, INA219::ADCSettings ShuntVADCsettings, INA219::ADCSettings BusVADCsettings, INA219::Modes DeviceMode, INA219::busVRange vRange)
 {
-    // reset();
+    reset();
     setBusVRange(vRange);
-    setCalibration(resistance, maxCurrent);
     setGain(Gain);
     setShuntVADC(ShuntVADCsettings);
     setBusVADC(BusVADCsettings);
-    setMode(DeviceMode);//maybe just try reading back some of these settings to check we are acutally getting i2c comms
-    configreg = readRegister(Registers::Config);
-    calibreg = readRegister(Registers::Calibration);
+    setMode(DeviceMode);
+    setCalibration(resistance, maxCurrent);    
 }
 
 void INA219::writeRegister(INA219::Registers address, uint16_t value)
 {
     _wire.beginTransmission(_deviceAddr);
     _wire.write(static_cast<uint8_t>(address));
-    delay(1);
     _wire.write(value >> 8);
-    delay(1);
     _wire.write(value & 0xFF);
     _wire.endTransmission();
 }
@@ -49,7 +49,6 @@ int16_t INA219::readRegister(INA219::Registers address)
 
     _wire.beginTransmission(_deviceAddr);
     _wire.write(static_cast<uint8_t>(address));
-    delay(1);
     _wire.endTransmission();
 
     _wire.requestFrom(_deviceAddr, 2);
@@ -63,7 +62,7 @@ void INA219::setCalibration(float resistance, float maxCurrent)
     _currentLSB = maxCurrent * recip2pow15;
 
     _calibrationReg = static_cast<uint16_t>(std::trunc(0.04096 / (_currentLSB * resistance)));
-
+    
     writeRegister(Registers::Calibration, _calibrationReg);
 }
 

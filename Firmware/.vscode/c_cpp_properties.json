@@ -9,7 +9,6 @@
             "name": "PlatformIO",
             "includePath": [
                 "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/include",
-                "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/src",
                 "/Users/andrei/.platformio/packages/framework-espidf/components/esp_ringbuf/include",
                 "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/config",
                 "/Users/andrei/.platformio/packages/framework-espidf/components/newlib/platform_include",
@@ -164,6 +163,7 @@
                 "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/components/arduino/libraries/Wire/src",
                 "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/components/librnp/src",
                 "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/components/libriccore/src",
+                "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/src",
                 "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/components/librrc/src",
                 "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/lib/eigen_modified",
                 "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/.pio/libdeps/esp32s3/Unity/src",
@@ -173,7 +173,6 @@
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
                     "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/include",
-                    "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/src",
                     "/Users/andrei/.platformio/packages/framework-espidf/components/esp_ringbuf/include",
                     "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/config",
                     "/Users/andrei/.platformio/packages/framework-espidf/components/newlib/platform_include",
@@ -328,6 +327,7 @@
                     "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/components/arduino/libraries/Wire/src",
                     "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/components/librnp/src",
                     "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/components/libriccore/src",
+                    "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/src",
                     "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/components/librrc/src",
                     "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/lib/eigen_modified",
                     "/Users/andrei/Documents/ICLR/Ricardo-FlintandSteel/Firmware/.pio/libdeps/esp32s3/Unity/src",
@@ -339,7 +339,7 @@
                 "ESP_PLATFORM",
                 "IDF_VER=\"4.4.5\"",
                 "_GNU_SOURCE",
-                "PLATFORMIO=60113",
+                "PLATFORMIO=60115",
                 "ARDUINO_ESP32S3_DEV",
                 "ARDUINO_USB_MODE=1",
                 "ARDUINO_RUNNING_CORE=1",
@@ -352,7 +352,7 @@
             ],
             "cStandard": "gnu99",
             "cppStandard": "gnu++17",
-            "compilerPath": "/Users/andrei/.platformio/packages/toolchain-xtensa-esp32s3@8.4.0+2021r2-patch5/bin/xtensa-esp32s3-elf-gcc",
+            "compilerPath": "/Users/andrei/.platformio/packages/toolchain-xtensa-esp32s3/bin/xtensa-esp32s3-elf-gcc",
             "compilerArgs": [
                 "-mlongcalls",
                 ""
