@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kiran/.platformio/packages/framework-espidf/components/esp_system/port
+# Install script for directory: /Users/andrei/.platformio/packages/framework-espidf@3.50301.0/components/esp_system/port
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,8 +33,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/Users/kiran/Documents/Projects/ICLR/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/esp-idf/esp_system/port/soc/esp32s3/cmake_install.cmake")
-
+  # Include the install script for the subdirectory.
+  include("/Users/andrei/Documents/ICLR/DEV/Ricardo-FlintandSteel/Firmware/.pio/build/esp32s3/esp-idf/esp_system/port/soc/esp32s3/cmake_install.cmake")
 endif()
 
