@@ -64,6 +64,9 @@ void System::systemSetup(){
     networkmanager.registerService(pyroservice1,pyro1.getThisNetworkCallback());
     networkmanager.registerService(pyroservice2,pyro2.getThisNetworkCallback());
     networkmanager.registerService(pyroservice3,pyro3.getThisNetworkCallback());
+
+    pinMode(PinMap::highSideEN,OUTPUT);
+    digitalWrite(PinMap::highSideEN, HIGH);
 };
 
 void System::systemUpdate(){
