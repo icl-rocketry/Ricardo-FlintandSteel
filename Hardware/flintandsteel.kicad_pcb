@@ -44465,7 +44465,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "FLINT & STEEL v4.0\n\n"
+	(gr_text "FLINT & STEEL v3.1\n\n"
 		(at 127.9 77.175 0)
 		(layer "B.SilkS")
 		(uuid "6b8afc90-18c0-4923-a6e0-fa09ff891f0c")
@@ -44477,8 +44477,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Designed By\nElectronics 2026"
-		(at 135.6 123.9 0)
+	(gr_text "Designed By\nAndrei Paduraru\nElectronics 2024"
+		(at 134.6 123 0)
 		(layer "B.SilkS")
 		(uuid "f337c77e-e799-4ba3-9dc3-6910ec0e1cd1")
 		(effects
