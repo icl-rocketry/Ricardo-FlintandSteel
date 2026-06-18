@@ -2,6 +2,7 @@
 
 #include <libriccore/riccoresystem.h>
 #include <librrc/Remote/nrcremotepyro.h>
+#include <librrc/Local/remoteactuatoradapter.h>
 #include <Wire.h>
 
 #include "Config/systemflags_config.h"
@@ -31,6 +32,12 @@ class System : public RicCoreSystem<System,SYSTEM_FLAG,Commands::ID>
         NRCRemotePyro<ArduinoGpio> pyro1;
         NRCRemotePyro<ArduinoGpio> pyro2;
         NRCRemotePyro<ArduinoGpio> pyro3;
+
+        // Adapters to allow local use of pyro objects
+        RemoteActuatorAdapter<NRCRemotePyro<ArduinoGpio>> pyro0_adapter;
+        RemoteActuatorAdapter<NRCRemotePyro<ArduinoGpio>> pyro1_adapter;
+        RemoteActuatorAdapter<NRCRemotePyro<ArduinoGpio>> pyro2_adapter;
+        RemoteActuatorAdapter<NRCRemotePyro<ArduinoGpio>> pyro3_adapter;
 
         TwoWire I2C;
         INA219 curr_sensor;

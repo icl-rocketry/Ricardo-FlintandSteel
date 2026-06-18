@@ -24,6 +24,10 @@ pyro0(ArduinoGpio(PinMap::Nuke1),ArduinoGpio(PinMap::Cont1),networkmanager),
 pyro1(ArduinoGpio(PinMap::Nuke2),ArduinoGpio(PinMap::Cont2),networkmanager),
 pyro2(ArduinoGpio(PinMap::Nuke3),ArduinoGpio(PinMap::Cont3),networkmanager),
 pyro3(ArduinoGpio(PinMap::Nuke4),ArduinoGpio(PinMap::Cont4),networkmanager),
+pyro0_adapter(0,pyro0,loggerhandler.retrieve_logger<RicCoreLoggingConfig::LOGGERS::PYRO>()),
+pyro1_adapter(1,pyro1,loggerhandler.retrieve_logger<RicCoreLoggingConfig::LOGGERS::PYRO>()),
+pyro2_adapter(2,pyro2,loggerhandler.retrieve_logger<RicCoreLoggingConfig::LOGGERS::PYRO>()),
+pyro3_adapter(3,pyro3,loggerhandler.retrieve_logger<RicCoreLoggingConfig::LOGGERS::PYRO>()),
 I2C(0),
 curr_sensor(0b1000000, I2C)
 {};
@@ -76,10 +80,13 @@ void System::systemSetup(){
 
 void System::systemUpdate(){
 
-    bool switch0 = digitalRead(PinMap::Switch0) == LOW;
-    bool switch1 = digitalRead(PinMap::Switch1) == LOW;
-    bool switch2 = digitalRead(PinMap::Switch2) == LOW;
-    bool switch3 = digitalRead(PinMap::Switch3) == LOW;
+    // HIGH or LOW
+    bool switch0 = digitalRead(PinMap::Switch0);
+    bool switch1 = digitalRead(PinMap::Switch1);
+    bool switch2 = digitalRead(PinMap::Switch2);
+    bool switch3 = digitalRead(PinMap::Switch3);
+
+    // TODOarm / disarm pyro channels based on switch states
 
     curr_sensor.update();
 };
