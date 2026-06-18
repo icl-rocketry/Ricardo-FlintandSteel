@@ -24,10 +24,10 @@ pyro0(ArduinoGpio(PinMap::Nuke1),ArduinoGpio(PinMap::Cont1),networkmanager),
 pyro1(ArduinoGpio(PinMap::Nuke2),ArduinoGpio(PinMap::Cont2),networkmanager),
 pyro2(ArduinoGpio(PinMap::Nuke3),ArduinoGpio(PinMap::Cont3),networkmanager),
 pyro3(ArduinoGpio(PinMap::Nuke4),ArduinoGpio(PinMap::Cont4),networkmanager),
-pyro0_adapter(0,pyro0,loggerhandler.retrieve_logger<RicCoreLoggingConfig::LOGGERS::PYRO>()),
-pyro1_adapter(1,pyro1,loggerhandler.retrieve_logger<RicCoreLoggingConfig::LOGGERS::PYRO>()),
-pyro2_adapter(2,pyro2,loggerhandler.retrieve_logger<RicCoreLoggingConfig::LOGGERS::PYRO>()),
-pyro3_adapter(3,pyro3,loggerhandler.retrieve_logger<RicCoreLoggingConfig::LOGGERS::PYRO>()),
+pyro0_adapter(0,pyro0,loggerhandler.retrieve_logger<RicCoreLoggingConfig::LOGGERS::COUT>()),
+pyro1_adapter(1,pyro1,loggerhandler.retrieve_logger<RicCoreLoggingConfig::LOGGERS::COUT>()),
+pyro2_adapter(2,pyro2,loggerhandler.retrieve_logger<RicCoreLoggingConfig::LOGGERS::COUT>()),
+pyro3_adapter(3,pyro3,loggerhandler.retrieve_logger<RicCoreLoggingConfig::LOGGERS::COUT>()),
 I2C(0),
 curr_sensor(0b1000000, I2C)
 {};
@@ -86,7 +86,42 @@ void System::systemUpdate(){
     bool switch2 = digitalRead(PinMap::Switch2);
     bool switch3 = digitalRead(PinMap::Switch3);
 
-    // TODOarm / disarm pyro channels based on switch states
+    // arm(0) enforces continuity
+    if (!switch0)
+    {
+        pyro0_adapter.arm(0);
+    }
+    else
+    {
+        pyro0_adapter.disarm();
+    }
+
+    if (!switch1)
+    {
+        pyro1_adapter.arm(0);
+    }
+    else
+    {
+        pyro1_adapter.disarm();
+    }
+
+    if (!switch2)
+    {
+        pyro2_adapter.arm(0);
+    }
+    else
+    {
+        pyro2_adapter.disarm();
+    }
+
+    if (!switch3)
+    {
+        pyro3_adapter.arm(0);
+    }
+    else
+    {
+        pyro3_adapter.disarm();
+    }
 
     curr_sensor.update();
 };

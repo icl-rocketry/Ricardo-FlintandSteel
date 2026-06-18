@@ -6,6 +6,5 @@
 std::tuple<RnpMessageLogger,CoutLogger> RicCoreLoggingConfig::logger_list =
 {
     RnpMessageLogger("SYS_LOG",1),
-    CoutLogger("COUT_LOG"),
-    CoutLogger("PYRO_LOG")
+    CoutLogger("COUT_LOG")
 };
