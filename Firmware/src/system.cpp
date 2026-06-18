@@ -52,6 +52,11 @@ void System::systemSetup(){
     pyro2.setup();
     pyro3.setup();
 
+    pinMode(PinMap::Switch0, INPUT_PULLUP);
+    pinMode(PinMap::Switch1, INPUT_PULLUP);
+    pinMode(PinMap::Switch2, INPUT_PULLUP);
+    pinMode(PinMap::Switch3, INPUT_PULLUP);
+
     I2C.begin(PinMap::SDA, PinMap::SCL, GeneralConfig::I2C_FREQUENCY);
     curr_sensor.setup(GeneralConfig::sense_resistance, GeneralConfig::maxExpectedCurrent);
 
@@ -70,6 +75,11 @@ void System::systemSetup(){
 };
 
 void System::systemUpdate(){
+
+    bool switch0 = digitalRead(PinMap::Switch0) == LOW;
+    bool switch1 = digitalRead(PinMap::Switch1) == LOW;
+    bool switch2 = digitalRead(PinMap::Switch2) == LOW;
+    bool switch3 = digitalRead(PinMap::Switch3) == LOW;
 
     curr_sensor.update();
 };

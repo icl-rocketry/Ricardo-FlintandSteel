@@ -16,6 +16,12 @@ namespace PinMap{
     static constexpr int Cont3 = 47;
     static constexpr int Cont4 = 36;
 
+    static constexpr int Switch0;
+    static constexpr int Switch1;
+    static constexpr int Switch2;
+    static constexpr int Switch3;
+
+
     static constexpr int TxCan = 18;
     static constexpr int RxCan = 17;
 
