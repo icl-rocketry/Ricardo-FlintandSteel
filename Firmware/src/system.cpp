@@ -131,5 +131,7 @@ void System::systemUpdate(){
         pyro3_adapter.disarm();
     }
 
+    // TODO: adapter.execute() to actually fire armed/disarmed pyro
+
     curr_sensor.update();
 };
