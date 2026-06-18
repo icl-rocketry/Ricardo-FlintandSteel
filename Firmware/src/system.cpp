@@ -25,16 +25,16 @@ pyro1(ArduinoGpio(PinMap::Nuke2),ArduinoGpio(PinMap::Cont2),networkmanager),
 pyro2(ArduinoGpio(PinMap::Nuke3),ArduinoGpio(PinMap::Cont3),networkmanager),
 pyro3(ArduinoGpio(PinMap::Nuke4),ArduinoGpio(PinMap::Cont4),networkmanager),
 pyro0_adapter(0,pyro0,[](const std::string& msg) {
-    RicCoreLogging::log<RicCoreLoggingConfig::LOGGERS::PYRO>("PYRO0 " + msg);
+    RicCoreLogging::log<RicCoreLoggingConfig::LOGGERS::COUT>("PYRO0 " + msg);
 }),
 pyro1_adapter(1,pyro1,[](const std::string& msg) {
-    RicCoreLogging::log<RicCoreLoggingConfig::LOGGERS::PYRO>("PYRO1 " + msg);
+    RicCoreLogging::log<RicCoreLoggingConfig::LOGGERS::COUT>("PYRO1 " + msg);
 }),
 pyro2_adapter(2,pyro2,[](const std::string& msg) {
-    RicCoreLogging::log<RicCoreLoggingConfig::LOGGERS::PYRO>("PYRO2 " + msg);
+    RicCoreLogging::log<RicCoreLoggingConfig::LOGGERS::COUT>("PYRO2 " + msg);
 }),
 pyro3_adapter(3,pyro3,[](const std::string& msg) {
-    RicCoreLogging::log<RicCoreLoggingConfig::LOGGERS::PYRO>("PYRO3 " + msg);
+    RicCoreLogging::log<RicCoreLoggingConfig::LOGGERS::COUT>("PYRO3 " + msg);
 }),
 I2C(0),
 curr_sensor(0b1000000, I2C)
