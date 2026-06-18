@@ -11,6 +11,7 @@ namespace RicCoreLoggingConfig
     {
         SYS, // default system logging
         COUT, // cout loggings
+        PYRO // pyro logging
     };
 
     extern std::tuple<RnpMessageLogger,CoutLogger> logger_list;
