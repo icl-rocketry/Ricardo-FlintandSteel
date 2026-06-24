@@ -3991,7 +3991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006201ef05")
-		(property "Reference" "D3"
+		(property "Reference" "D706"
 			(at 72.39 44.196 90)
 			(effects
 				(font
@@ -4048,7 +4048,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "D3")
+					(reference "D706")
 					(unit 1)
 				)
 			)
@@ -4064,7 +4064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "064327c2-c4a5-4b23-9a84-55fd138be537")
-		(property "Reference" "Q4"
+		(property "Reference" "Q704"
 			(at 212.09 138.4299 0)
 			(effects
 				(font
@@ -4214,7 +4214,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "Q4")
+					(reference "Q704")
 					(unit 1)
 				)
 			)
@@ -4230,7 +4230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ad98384-14d3-4963-929f-e8a16fa14d87")
-		(property "Reference" "D12"
+		(property "Reference" "D719"
 			(at 250.19 60.9599 90)
 			(effects
 				(font
@@ -4356,7 +4356,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "D12")
+					(reference "D719")
 					(unit 1)
 				)
 			)
@@ -4371,7 +4371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10a432e8-e322-4c2f-ac63-ceaf586c13b2")
-		(property "Reference" "Firing4"
+		(property "Reference" "D711"
 			(at 163.068 144.526 90)
 			(effects
 				(font
@@ -4380,7 +4380,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "EMERALD_LED"
+		(property "Value" "LED_GREEN"
 			(at 163.068 147.066 90)
 			(effects
 				(font
@@ -4425,7 +4425,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "Firing4")
+					(reference "D711")
 					(unit 1)
 				)
 			)
@@ -4441,7 +4441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1108f564-5a3d-4638-b492-117c8565d5de")
-		(property "Reference" "J5"
+		(property "Reference" "J704"
 			(at 209.55 99.0599 90)
 			(effects
 				(font
@@ -4497,7 +4497,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "J5")
+					(reference "J704")
 					(unit 1)
 				)
 			)
@@ -4512,7 +4512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1427a246-c2d7-40d8-aa1e-19f7daf064aa")
-		(property "Reference" "D10"
+		(property "Reference" "D718"
 			(at 238.76 143.5131 90)
 			(effects
 				(font
@@ -4521,7 +4521,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED_LED"
+		(property "Value" "LED_RED"
 			(at 238.76 146.05 90)
 			(effects
 				(font
@@ -4566,7 +4566,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "D10")
+					(reference "D718")
 					(unit 1)
 				)
 			)
@@ -4582,7 +4582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18eacd41-4638-4463-841d-94e2860fc046")
-		(property "Reference" "D13"
+		(property "Reference" "D720"
 			(at 255.27 139.6999 90)
 			(effects
 				(font
@@ -4708,7 +4708,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "D13")
+					(reference "D720")
 					(unit 1)
 				)
 			)
@@ -4724,7 +4724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19f64480-1e6e-4606-b286-585b67d5edbe")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR0716"
 			(at 208.28 156.21 0)
 			(effects
 				(font
@@ -4774,7 +4774,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR061")
+					(reference "#PWR0716")
 					(unit 1)
 				)
 			)
@@ -4789,7 +4789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ce040bc-5cea-42c0-8121-65fb7420060d")
-		(property "Reference" "D18"
+		(property "Reference" "D714"
 			(at 198.374 115.824 0)
 			(effects
 				(font
@@ -4841,7 +4841,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "D18")
+					(reference "D714")
 					(unit 1)
 				)
 			)
@@ -4857,7 +4857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "213ad60b-5b67-4ee7-b9ce-dd418ec54723")
-		(property "Reference" "R23"
+		(property "Reference" "R704"
 			(at 52.07 144.7799 0)
 			(effects
 				(font
@@ -4866,7 +4866,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kΩ"
 			(at 52.07 147.3199 0)
 			(effects
 				(font
@@ -4911,7 +4911,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "R23")
+					(reference "R704")
 					(unit 1)
 				)
 			)
@@ -4928,7 +4928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2262f710-a041-4baa-9304-7b4dfe1becf8")
-		(property "Reference" "U6"
+		(property "Reference" "U701"
 			(at 243.84 120.65 0)
 			(effects
 				(font
@@ -5025,7 +5025,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "U6")
+					(reference "U701")
 					(unit 1)
 				)
 			)
@@ -5041,7 +5041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2563f270-7f8c-4c89-9a50-9d7907b8e223")
-		(property "Reference" "D4"
+		(property "Reference" "D715"
 			(at 210.82 39.116 90)
 			(effects
 				(font
@@ -5098,7 +5098,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "D4")
+					(reference "D715")
 					(unit 1)
 				)
 			)
@@ -5114,7 +5114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2787562e-c137-4d32-8289-ee8708fc513d")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR0718"
 			(at 231.14 130.81 0)
 			(effects
 				(font
@@ -5164,7 +5164,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR063")
+					(reference "#PWR0718")
 					(unit 1)
 				)
 			)
@@ -5180,7 +5180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28b3cb87-e511-4cf7-8044-446900073d02")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR0719"
 			(at 238.76 82.55 0)
 			(effects
 				(font
@@ -5230,7 +5230,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR064")
+					(reference "#PWR0719")
 					(unit 1)
 				)
 			)
@@ -5246,7 +5246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2962b5bd-b557-4195-ac59-6e84ddf455f3")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR0707"
 			(at 86.36 130.81 0)
 			(effects
 				(font
@@ -5296,7 +5296,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR055")
+					(reference "#PWR0707")
 					(unit 1)
 				)
 			)
@@ -5312,7 +5312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cd3c686-3bf4-42c3-b899-be9284ce72ce")
-		(property "Reference" "R22"
+		(property "Reference" "R703"
 			(at 52.07 68.5799 0)
 			(effects
 				(font
@@ -5321,7 +5321,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kΩ"
 			(at 52.07 71.1199 0)
 			(effects
 				(font
@@ -5366,7 +5366,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "R22")
+					(reference "R703")
 					(unit 1)
 				)
 			)
@@ -5382,7 +5382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31bfa70f-06bf-4f72-af33-b6f222fc52d7")
-		(property "Reference" "J7"
+		(property "Reference" "J701"
 			(at 64.77 99.0599 90)
 			(effects
 				(font
@@ -5438,7 +5438,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "J7")
+					(reference "J701")
 					(unit 1)
 				)
 			)
@@ -5453,7 +5453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3788f825-d096-4725-9265-056714919bf5")
-		(property "Reference" "Firing1"
+		(property "Reference" "D701"
 			(at 21.082 65.024 90)
 			(effects
 				(font
@@ -5462,7 +5462,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "EMERALD_LED"
+		(property "Value" "LED_GREEN"
 			(at 21.082 67.564 90)
 			(effects
 				(font
@@ -5507,7 +5507,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "Firing1")
+					(reference "D701")
 					(unit 1)
 				)
 			)
@@ -5522,7 +5522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "389ace5e-5823-4620-ad0b-1b8282103a6c")
-		(property "Reference" "D15"
+		(property "Reference" "D703"
 			(at 53.594 115.824 0)
 			(effects
 				(font
@@ -5572,9 +5572,9 @@
 			(uuid "d5b132e4-6216-4007-8099-ea89c064befa")
 		)
 		(instances
-			(project ""
+			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "D15")
+					(reference "D703")
 					(unit 1)
 				)
 			)
@@ -5590,7 +5590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e90a967-c4bd-4c0f-bef2-c608d3f13ce5")
-		(property "Reference" "R24"
+		(property "Reference" "R708"
 			(at 182.88 71.1199 0)
 			(effects
 				(font
@@ -5599,7 +5599,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "120Ω"
 			(at 182.88 73.6599 0)
 			(effects
 				(font
@@ -5644,7 +5644,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "R24")
+					(reference "R708")
 					(unit 1)
 				)
 			)
@@ -5660,7 +5660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ddfea4f-4c9f-46ea-adb4-b0ad974d05bd")
-		(property "Reference" "R29"
+		(property "Reference" "R709"
 			(at 194.31 63.4999 0)
 			(effects
 				(font
@@ -5669,7 +5669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kΩ"
 			(at 194.31 66.0399 0)
 			(effects
 				(font
@@ -5714,7 +5714,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "R29")
+					(reference "R709")
 					(unit 1)
 				)
 			)
@@ -5729,7 +5729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53fcb4f4-b3a8-4d7b-afcd-b688f7eb44c3")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR0701"
 			(at 36.83 85.09 0)
 			(effects
 				(font
@@ -5779,7 +5779,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR017")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 			)
@@ -5795,7 +5795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c8d190b-b167-4102-8b15-17a389cf452b")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR0702"
 			(at 38.1 163.83 0)
 			(effects
 				(font
@@ -5845,7 +5845,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR051")
+					(reference "#PWR0702")
 					(unit 1)
 				)
 			)
@@ -5860,7 +5860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60bb8a2e-afdb-45b8-8746-f1e46f748843")
-		(property "Reference" "Firing2"
+		(property "Reference" "D702"
 			(at 24.13 146.812 90)
 			(effects
 				(font
@@ -5869,7 +5869,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "EMERALD_LED"
+		(property "Value" "LED_GREEN"
 			(at 24.13 149.352 90)
 			(effects
 				(font
@@ -5914,7 +5914,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "Firing2")
+					(reference "D702")
 					(unit 1)
 				)
 			)
@@ -5930,7 +5930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62c86f46-8493-4a19-9f2f-6ecd7375fbf6")
-		(property "Reference" "R26"
+		(property "Reference" "R711"
 			(at 233.68 55.8799 0)
 			(effects
 				(font
@@ -5939,7 +5939,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "120Ω"
 			(at 233.68 58.4199 0)
 			(effects
 				(font
@@ -5984,7 +5984,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "R26")
+					(reference "R711")
 					(unit 1)
 				)
 			)
@@ -6000,7 +6000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6532120b-b6e7-45e2-892f-b83b55431cc1")
-		(property "Reference" "J4"
+		(property "Reference" "J703"
 			(at 204.47 20.3199 90)
 			(effects
 				(font
@@ -6056,7 +6056,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "J4")
+					(reference "J703")
 					(unit 1)
 				)
 			)
@@ -6071,7 +6071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67b8c453-2fc9-4f1e-a957-0a12d96b3976")
-		(property "Reference" "D17"
+		(property "Reference" "D713"
 			(at 193.294 37.084 0)
 			(effects
 				(font
@@ -6123,7 +6123,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "D17")
+					(reference "D713")
 					(unit 1)
 				)
 			)
@@ -6139,7 +6139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68b3e642-9d36-40b0-a653-099631943ff3")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR0714"
 			(at 191.77 153.67 0)
 			(effects
 				(font
@@ -6189,7 +6189,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR075")
+					(reference "#PWR0714")
 					(unit 1)
 				)
 			)
@@ -6205,7 +6205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c653016-ffa7-44e0-b00f-3ec3bee88260")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR0720"
 			(at 243.84 158.75 0)
 			(effects
 				(font
@@ -6255,7 +6255,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR065")
+					(reference "#PWR0720")
 					(unit 1)
 				)
 			)
@@ -6271,7 +6271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7561458a-4c25-4956-a955-25da044fc32c")
-		(property "Reference" "R21"
+		(property "Reference" "R705"
 			(at 93.98 134.6199 0)
 			(effects
 				(font
@@ -6280,7 +6280,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "120Ω"
 			(at 93.98 137.1599 0)
 			(effects
 				(font
@@ -6325,7 +6325,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "R21")
+					(reference "R705")
 					(unit 1)
 				)
 			)
@@ -6341,7 +6341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ac05175-fb6d-4b76-93c2-237c56dcee5e")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR0715"
 			(at 203.2 77.47 0)
 			(effects
 				(font
@@ -6391,7 +6391,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR060")
+					(reference "#PWR0715")
 					(unit 1)
 				)
 			)
@@ -6407,7 +6407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7eb45fb3-6e16-46d5-9141-2315e6fedad3")
-		(property "Reference" "R25"
+		(property "Reference" "R707"
 			(at 181.61 149.8599 0)
 			(effects
 				(font
@@ -6416,7 +6416,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "120Ω"
 			(at 181.61 152.3999 0)
 			(effects
 				(font
@@ -6461,7 +6461,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "R25")
+					(reference "R707")
 					(unit 1)
 				)
 			)
@@ -6476,7 +6476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80221610-4abf-4ac9-828e-59ff7bc8f97f")
-		(property "Reference" "D16"
+		(property "Reference" "D704"
 			(at 54.864 37.084 0)
 			(effects
 				(font
@@ -6528,7 +6528,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "D16")
+					(reference "D704")
 					(unit 1)
 				)
 			)
@@ -6545,7 +6545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86b0276b-458a-4dd3-a2a7-b60eca63bfba")
-		(property "Reference" "U6"
+		(property "Reference" "U701"
 			(at 100.33 43.18 0)
 			(effects
 				(font
@@ -6642,7 +6642,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "U6")
+					(reference "U701")
 					(unit 4)
 				)
 			)
@@ -6658,7 +6658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a3b1f4d-9880-4600-b00e-599c3f0074b8")
-		(property "Reference" "Q3"
+		(property "Reference" "Q703"
 			(at 207.01 59.6899 0)
 			(effects
 				(font
@@ -6808,7 +6808,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "Q3")
+					(reference "Q703")
 					(unit 1)
 				)
 			)
@@ -6824,7 +6824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c7ce44d-7886-413f-9402-aa2ede6b5bea")
-		(property "Reference" "D5"
+		(property "Reference" "D708"
 			(at 96.52 65.7225 90)
 			(effects
 				(font
@@ -6833,7 +6833,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED_LED"
+		(property "Value" "LED_RED"
 			(at 96.52 68.2625 90)
 			(effects
 				(font
@@ -6878,7 +6878,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "D5")
+					(reference "D708")
 					(unit 1)
 				)
 			)
@@ -6894,7 +6894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f022e26-78e7-4add-ada1-0b5b494daa41")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR0704"
 			(at 49.53 156.21 0)
 			(effects
 				(font
@@ -6944,7 +6944,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR074")
+					(reference "#PWR0704")
 					(unit 1)
 				)
 			)
@@ -6960,7 +6960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "917fe612-e6cc-4823-91db-f8e31d724366")
-		(property "Reference" "R20"
+		(property "Reference" "R706"
 			(at 95.25 55.8799 0)
 			(effects
 				(font
@@ -6969,7 +6969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "120Ω"
 			(at 95.25 58.4199 0)
 			(effects
 				(font
@@ -7014,7 +7014,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "R20")
+					(reference "R706")
 					(unit 1)
 				)
 			)
@@ -7030,7 +7030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92e0bc86-5f22-440a-9dd0-b2fd762fc7ea")
-		(property "Reference" "R28"
+		(property "Reference" "R710"
 			(at 194.31 142.2399 0)
 			(effects
 				(font
@@ -7039,7 +7039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kΩ"
 			(at 194.31 144.7799 0)
 			(effects
 				(font
@@ -7084,7 +7084,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "R28")
+					(reference "R710")
 					(unit 1)
 				)
 			)
@@ -7100,7 +7100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "970a776b-7463-4b76-bb22-78cfa029a544")
-		(property "Reference" "D9"
+		(property "Reference" "D717"
 			(at 234.95 65.7225 90)
 			(effects
 				(font
@@ -7109,7 +7109,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED_LED"
+		(property "Value" "LED_RED"
 			(at 234.95 68.2625 90)
 			(effects
 				(font
@@ -7154,7 +7154,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "D9")
+					(reference "D717")
 					(unit 1)
 				)
 			)
@@ -7171,7 +7171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9989f674-aa94-46b3-b32a-d16715030a8a")
-		(property "Reference" "U6"
+		(property "Reference" "U701"
 			(at 99.06 122.0302 0)
 			(effects
 				(font
@@ -7268,7 +7268,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "U6")
+					(reference "U701")
 					(unit 3)
 				)
 			)
@@ -7284,7 +7284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b1efe7c-1622-4adf-b042-ffcc4dc8de35")
-		(property "Reference" "R27"
+		(property "Reference" "R712"
 			(at 238.76 134.6199 0)
 			(effects
 				(font
@@ -7293,7 +7293,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "120Ω"
 			(at 238.76 137.1599 0)
 			(effects
 				(font
@@ -7338,7 +7338,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "R27")
+					(reference "R712")
 					(unit 1)
 				)
 			)
@@ -7354,7 +7354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a197de3e-a7a7-415a-9aed-af8d63ab592c")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR0705"
 			(at 62.23 82.55 0)
 			(effects
 				(font
@@ -7404,7 +7404,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR052")
+					(reference "#PWR0705")
 					(unit 1)
 				)
 			)
@@ -7420,7 +7420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a224df21-4864-4231-8925-1c255694be7a")
-		(property "Reference" "D11"
+		(property "Reference" "D710"
 			(at 111.76 60.9599 90)
 			(effects
 				(font
@@ -7544,9 +7544,9 @@
 			(uuid "546ccdbc-2ac8-4158-8cca-2022c50a06a3")
 		)
 		(instances
-			(project ""
+			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "D11")
+					(reference "D710")
 					(unit 1)
 				)
 			)
@@ -7562,7 +7562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a61991b9-24ca-4424-950e-7886326ccd62")
-		(property "Reference" "J3"
+		(property "Reference" "J702"
 			(at 66.04 20.3199 90)
 			(effects
 				(font
@@ -7618,7 +7618,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "J3")
+					(reference "J702")
 					(unit 1)
 				)
 			)
@@ -7634,7 +7634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a851168f-39eb-48b6-b448-4d5beca787fc")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR0717"
 			(at 226.06 52.07 0)
 			(effects
 				(font
@@ -7684,7 +7684,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR062")
+					(reference "#PWR0717")
 					(unit 1)
 				)
 			)
@@ -7700,7 +7700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9a3d06c-0268-49a0-b912-4df392026e49")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR0712"
 			(at 180.34 82.55 0)
 			(effects
 				(font
@@ -7750,7 +7750,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR058")
+					(reference "#PWR0712")
 					(unit 1)
 				)
 			)
@@ -7766,7 +7766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad347830-2ddd-4028-9278-19cb74f3c448")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR0713"
 			(at 191.77 74.93 0)
 			(effects
 				(font
@@ -7816,7 +7816,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR076")
+					(reference "#PWR0713")
 					(unit 1)
 				)
 			)
@@ -7832,7 +7832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b087fef0-1419-4456-b7c3-bfd21bf3c792")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR0711"
 			(at 179.07 161.29 0)
 			(effects
 				(font
@@ -7882,7 +7882,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR059")
+					(reference "#PWR0711")
 					(unit 1)
 				)
 			)
@@ -7898,7 +7898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3c65e2a-3e4b-467d-8c5f-226dfb564948")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR0706"
 			(at 63.5 158.75 0)
 			(effects
 				(font
@@ -7948,7 +7948,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR053")
+					(reference "#PWR0706")
 					(unit 1)
 				)
 			)
@@ -7964,7 +7964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3c71ea2-142c-4871-a3c6-14d9dea9c4ce")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR0709"
 			(at 99.06 161.29 0)
 			(effects
 				(font
@@ -8014,7 +8014,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR057")
+					(reference "#PWR0709")
 					(unit 1)
 				)
 			)
@@ -8030,7 +8030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3fba140-e3fd-4852-8770-7d783848166c")
-		(property "Reference" "D14"
+		(property "Reference" "D709"
 			(at 110.49 139.6999 90)
 			(effects
 				(font
@@ -8156,7 +8156,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "D14")
+					(reference "D709")
 					(unit 1)
 				)
 			)
@@ -8172,7 +8172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc2a897d-98f7-4831-b12c-86c5f8bb1166")
-		(property "Reference" "R18"
+		(property "Reference" "R701"
 			(at 39.37 73.6599 0)
 			(effects
 				(font
@@ -8181,7 +8181,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "120Ω"
 			(at 39.37 76.1999 0)
 			(effects
 				(font
@@ -8226,7 +8226,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "R18")
+					(reference "R701")
 					(unit 1)
 				)
 			)
@@ -8242,7 +8242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9b127f2-ef88-4f2e-84d0-81218e6d44bf")
-		(property "Reference" "Q2"
+		(property "Reference" "Q702"
 			(at 67.31 140.9699 0)
 			(effects
 				(font
@@ -8390,9 +8390,9 @@
 			(uuid "daa2560e-a8d2-4865-a5d6-0b09e7f1c8f8")
 		)
 		(instances
-			(project ""
+			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "Q2")
+					(reference "Q702")
 					(unit 1)
 				)
 			)
@@ -8408,7 +8408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cce30b8d-2c7f-4ad2-ab4b-334e84dd4983")
-		(property "Reference" "D7"
+		(property "Reference" "D705"
 			(at 71.12 122.936 90)
 			(effects
 				(font
@@ -8465,7 +8465,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "D7")
+					(reference "D705")
 					(unit 1)
 				)
 			)
@@ -8481,7 +8481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cce40320-9001-44fb-80fd-b4ec6d615ef1")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR0703"
 			(at 49.53 80.01 0)
 			(effects
 				(font
@@ -8531,7 +8531,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR073")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 			)
@@ -8547,7 +8547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7122615-17b0-4821-b4c3-bdf15686e5b4")
-		(property "Reference" "R19"
+		(property "Reference" "R702"
 			(at 40.64 152.3999 0)
 			(effects
 				(font
@@ -8556,7 +8556,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "120Ω"
 			(at 40.64 154.9399 0)
 			(effects
 				(font
@@ -8601,7 +8601,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "R19")
+					(reference "R702")
 					(unit 1)
 				)
 			)
@@ -8617,7 +8617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6c3b1c5-6a8d-489b-99e2-7d520e3e8b57")
-		(property "Reference" "D6"
+		(property "Reference" "D707"
 			(at 95.25 144.4625 90)
 			(effects
 				(font
@@ -8626,7 +8626,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED_LED"
+		(property "Value" "LED_RED"
 			(at 95.25 147.0025 90)
 			(effects
 				(font
@@ -8671,7 +8671,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "D6")
+					(reference "D707")
 					(unit 1)
 				)
 			)
@@ -8687,7 +8687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7c551a4-6498-4856-b2c3-c8253303243f")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR0708"
 			(at 87.63 52.07 0)
 			(effects
 				(font
@@ -8737,7 +8737,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR054")
+					(reference "#PWR0708")
 					(unit 1)
 				)
 			)
@@ -8752,7 +8752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8d1a11f-dea7-4c4b-98dd-a2967844b010")
-		(property "Reference" "Firing3"
+		(property "Reference" "D712"
 			(at 165.354 65.532 90)
 			(effects
 				(font
@@ -8761,7 +8761,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "EMERALD_LED"
+		(property "Value" "LED_GREEN"
 			(at 165.354 68.072 90)
 			(effects
 				(font
@@ -8806,7 +8806,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "Firing3")
+					(reference "D712")
 					(unit 1)
 				)
 			)
@@ -8822,7 +8822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed3592db-4339-446b-b18d-cb3f02df8496")
-		(property "Reference" "D8"
+		(property "Reference" "D716"
 			(at 215.9 120.396 90)
 			(effects
 				(font
@@ -8879,7 +8879,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "D8")
+					(reference "D716")
 					(unit 1)
 				)
 			)
@@ -8895,7 +8895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef78d75d-e6ee-4bc6-a29f-1f29208cda7d")
-		(property "Reference" "Q1"
+		(property "Reference" "Q701"
 			(at 66.04 64.7699 0)
 			(effects
 				(font
@@ -9045,7 +9045,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "Q1")
+					(reference "Q701")
 					(unit 1)
 				)
 			)
@@ -9062,7 +9062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6bae4c5-5f84-4a1a-9155-5c249beb3e91")
-		(property "Reference" "U6"
+		(property "Reference" "U701"
 			(at 238.76 43.2902 0)
 			(effects
 				(font
@@ -9159,7 +9159,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "U6")
+					(reference "U701")
 					(unit 2)
 				)
 			)
@@ -9175,7 +9175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fedf2793-e571-499f-b664-588a2daa645f")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR0710"
 			(at 100.33 82.55 0)
 			(effects
 				(font
@@ -9225,7 +9225,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b9a85f03-bf97-4e73-b79c-bd8547648cfe"
-					(reference "#PWR056")
+					(reference "#PWR0710")
 					(unit 1)
 				)
 			)

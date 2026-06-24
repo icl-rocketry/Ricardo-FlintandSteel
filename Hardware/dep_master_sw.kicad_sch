@@ -1870,7 +1870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06e5ea81-be9f-4236-8851-b8135b621f26")
-		(property "Reference" "C29"
+		(property "Reference" "C301"
 			(at 110.744 64.008 0)
 			(effects
 				(font
@@ -1879,7 +1879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 110.744 66.548 0)
 			(effects
 				(font
@@ -1922,9 +1922,9 @@
 			(uuid "a91432d4-6300-4216-8357-eb11b71bab0e")
 		)
 		(instances
-			(project ""
+			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "C29")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -1940,7 +1940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "094da7d1-5098-4442-8de7-45f6ea5abfb4")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR0306"
 			(at 162.56 87.63 0)
 			(effects
 				(font
@@ -1990,7 +1990,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "#PWR072")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -2006,7 +2006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "146ff2df-e988-4918-992c-aab76cf5bd65")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR0302"
 			(at 107.95 73.66 0)
 			(effects
 				(font
@@ -2056,7 +2056,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "#PWR070")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -2071,7 +2071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "231d1423-ee5f-4df3-8b13-8021b4f601f5")
-		(property "Reference" "C12"
+		(property "Reference" "C302"
 			(at 133.858 46.482 90)
 			(effects
 				(font
@@ -2139,9 +2139,9 @@
 			(uuid "e90a7ee5-d50b-46eb-8f03-7933d74aa829")
 		)
 		(instances
-			(project ""
+			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "C12")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -2156,7 +2156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3079f6bc-3684-453f-8f3c-81099ffd4d06")
-		(property "Reference" "C28"
+		(property "Reference" "C303"
 			(at 145.542 39.624 0)
 			(effects
 				(font
@@ -2164,7 +2164,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 145.542 42.164 0)
 			(effects
 				(font
@@ -2208,7 +2208,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "C28")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -2224,7 +2224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59850efb-f711-4812-bd30-eb304aaa1b6d")
-		(property "Reference" "Q6"
+		(property "Reference" "Q302"
 			(at 157.48 38.1 90)
 			(effects
 				(font
@@ -2370,9 +2370,9 @@
 			(uuid "137684ea-a2bd-466f-bbe4-434b49f81dca")
 		)
 		(instances
-			(project ""
+			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "Q6")
+					(reference "Q302")
 					(unit 1)
 				)
 			)
@@ -2388,7 +2388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a2b47f2-f5b6-4593-acf9-d613b6bfc9f5")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR0301"
 			(at 99.06 73.66 0)
 			(effects
 				(font
@@ -2438,7 +2438,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "#PWR077")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -2454,7 +2454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62e82ad6-5684-4bb3-b43d-096b9e48bed0")
-		(property "Reference" "R37"
+		(property "Reference" "R302"
 			(at 160.02 66.04 90)
 			(effects
 				(font
@@ -2462,7 +2462,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100kΩ"
 			(at 160.02 68.58 90)
 			(effects
 				(font
@@ -2504,9 +2504,9 @@
 			(uuid "b7812a18-6e0e-4e6d-9a45-87985d939ea6")
 		)
 		(instances
-			(project ""
+			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "R37")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -2521,7 +2521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63101b2e-9b8b-451a-baba-bbee4a671fb6")
-		(property "Reference" "C30"
+		(property "Reference" "C304"
 			(at 171.704 64.008 0)
 			(effects
 				(font
@@ -2530,7 +2530,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 171.704 66.548 0)
 			(effects
 				(font
@@ -2575,7 +2575,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "C30")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -2591,7 +2591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "686522b9-c7aa-4f1c-b057-8b823b0c6146")
-		(property "Reference" "R38"
+		(property "Reference" "R303"
 			(at 165.1 72.3899 0)
 			(effects
 				(font
@@ -2600,7 +2600,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5.1kΩ"
 			(at 165.1 74.9299 0)
 			(effects
 				(font
@@ -2645,7 +2645,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "R38")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -2661,7 +2661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7764752a-0cef-4b1c-8b90-dc6a5fa6df04")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR0305"
 			(at 146.05 55.88 0)
 			(effects
 				(font
@@ -2711,7 +2711,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "#PWR069")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -2727,7 +2727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88ec4ab8-fdfb-4c3f-9fb9-1d859c8598db")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR0303"
 			(at 119.38 86.36 0)
 			(effects
 				(font
@@ -2775,9 +2775,9 @@
 			(uuid "92d6347a-0c63-4800-9075-e6e9e3dc6b72")
 		)
 		(instances
-			(project ""
+			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "#PWR015")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -2792,7 +2792,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4c3c216-95ea-44dc-9c04-d787ebc18380")
-		(property "Reference" "U8"
+		(property "Reference" "U301"
 			(at 146.558 82.042 0)
 			(effects
 				(font
@@ -2947,9 +2947,9 @@
 			(uuid "ef6cbfbe-e0f7-4885-9beb-97c19567ec5f")
 		)
 		(instances
-			(project ""
+			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "U8")
+					(reference "U301")
 					(unit 1)
 				)
 			)
@@ -2965,7 +2965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca94c943-0325-4cca-9832-b93d55c2ca94")
-		(property "Reference" "R39"
+		(property "Reference" "R304"
 			(at 165.1 77.4699 0)
 			(effects
 				(font
@@ -2974,7 +2974,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.22k"
+		(property "Value" "4.22kΩ"
 			(at 165.1 80.0099 0)
 			(effects
 				(font
@@ -3019,7 +3019,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "R39")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -3034,7 +3034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0160047-5f62-462d-a9cd-5cfb331caacc")
-		(property "Reference" "R5"
+		(property "Reference" "R301"
 			(at 113.538 74.676 0)
 			(effects
 				(font
@@ -3043,7 +3043,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 113.538 77.216 0)
 			(effects
 				(font
@@ -3086,9 +3086,9 @@
 			(uuid "af6e6907-e86d-46e6-8dbb-e17d48532a22")
 		)
 		(instances
-			(project ""
+			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "R5")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -3103,7 +3103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e17c5241-0d5d-4d37-a927-80974caf7ab2")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0307"
 			(at 168.91 73.66 0)
 			(effects
 				(font
@@ -3153,7 +3153,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "#PWR071")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -3169,7 +3169,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1956bad-469d-4f3b-9545-c93ed5141b3e")
-		(property "Reference" "Q5"
+		(property "Reference" "Q301"
 			(at 121.92 38.1 90)
 			(effects
 				(font
@@ -3317,7 +3317,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "Q5")
+					(reference "Q301")
 					(unit 1)
 				)
 			)
@@ -3333,7 +3333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e276ae93-3b1c-4901-b8d6-f33760eb5003")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0304"
 			(at 139.7 91.44 0)
 			(effects
 				(font
@@ -3383,7 +3383,7 @@
 		(instances
 			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "#PWR09")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -3398,7 +3398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e99b83ed-49d5-4f2b-870c-e4db3f349cd1")
-		(property "Reference" "D19"
+		(property "Reference" "D301"
 			(at 96.52 70.612 90)
 			(effects
 				(font
@@ -3450,9 +3450,9 @@
 			(uuid "f6b48b6a-4f5b-43fd-b2b0-461b637ceb62")
 		)
 		(instances
-			(project ""
+			(project "flintandsteel"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/62d4ea8d-f53f-40d2-8855-48df78fda698"
-					(reference "D19")
+					(reference "D301")
 					(unit 1)
 				)
 			)
