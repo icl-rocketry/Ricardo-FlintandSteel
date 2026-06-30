@@ -11,6 +11,7 @@
 #include "Config/pinmap_config.h"
 #include "Config/general_config.h"
 #include "Config/services_config.h"
+#include "Config/lcd_config.h"
 
 #include "Commands/commands.h"
 
@@ -69,6 +70,8 @@ void System::systemSetup(){
     pinMode(PinMap::Switch2, INPUT_PULLUP);
     pinMode(PinMap::Switch3, INPUT_PULLUP);
 
+    lcdSetup();
+
     I2C.begin(PinMap::SDA, PinMap::SCL, GeneralConfig::I2C_FREQUENCY);
     curr_sensor.setup(GeneralConfig::sense_resistance, GeneralConfig::maxExpectedCurrent);
 
@@ -93,6 +96,8 @@ void System::systemUpdate(){
     bool switch1 = digitalRead(PinMap::Switch1);
     bool switch2 = digitalRead(PinMap::Switch2);
     bool switch3 = digitalRead(PinMap::Switch3);
+
+    lcdUpdate(switch0, switch1, switch2, switch3);
 
     // arm(0) enforces continuity
     if (!switch0)
