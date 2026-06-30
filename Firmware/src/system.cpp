@@ -98,6 +98,7 @@ void System::systemUpdate(){
     if (!switch0)
     {
         pyro0_adapter.arm(0);
+        pyro0_adapter.execute(500);
     }
     else
     {
@@ -107,6 +108,7 @@ void System::systemUpdate(){
     if (!switch1)
     {
         pyro1_adapter.arm(0);
+        pyro1_adapter.execute(500);
     }
     else
     {
@@ -116,6 +118,7 @@ void System::systemUpdate(){
     if (!switch2)
     {
         pyro2_adapter.arm(0);
+        pyro2_adapter.execute(500);
     }
     else
     {
@@ -125,13 +128,12 @@ void System::systemUpdate(){
     if (!switch3)
     {
         pyro3_adapter.arm(0);
+        pyro3_adapter.execute(500);
     }
     else
     {
         pyro3_adapter.disarm();
     }
-
-    // TODO: adapter.execute() to actually fire armed/disarmed pyro
 
     curr_sensor.update();
 };
