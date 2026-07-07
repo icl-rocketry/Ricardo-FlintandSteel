@@ -19,3 +19,12 @@
 [submodule "Firmware/components/arduino"]
 	path = Firmware/components/arduino
 	url = https://github.com/espressif/arduino-esp32.git
+[submodule "Firmware/components/Adafruit-GFX-Library"]
+	path = Firmware/components/Adafruit-GFX-Library
+	url = https://github.com/adafruit/Adafruit-GFX-Library.git
+[submodule "Firmware/components/Adafruit_SSD1306"]
+	path = Firmware/components/Adafruit_SSD1306
+	url = https://github.com/adafruit/Adafruit_SSD1306.git
+[submodule "Firmware/components/Adafruit_BusIO"]
+	path = Firmware/components/Adafruit_BusIO
+	url = https://github.com/adafruit/Adafruit_BusIO.git
