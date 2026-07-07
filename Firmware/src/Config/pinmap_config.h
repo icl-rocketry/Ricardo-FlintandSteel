@@ -31,6 +31,10 @@ namespace PinMap{
 
     static constexpr int SDA = 15;
     static constexpr int SCL = 16;
+
+    // tmp for testing
+    static constexpr int tmpSDA = 11; // gpio 6
+    static constexpr int tmpSCL = 12; // gpio 7
 };
 
 
