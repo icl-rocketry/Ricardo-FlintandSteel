@@ -17,11 +17,11 @@ namespace PinMap{
     static constexpr int Cont4 = 36;
 
 
-    // TODO: ASSIGN CORRECT SWITCH PINS ONCE BOARD IS ASSEMBLED
+
     static constexpr int Switch0 = 1;
     static constexpr int Switch1 = 2;
-    static constexpr int Switch2 = 3;
-    static constexpr int Switch3 = 4;
+    static constexpr int Switch2 = 4;
+    static constexpr int Switch3 = 5;
 
 
     static constexpr int TxCan = 18;
